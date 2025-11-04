@@ -84,3 +84,6 @@ googleAnalytics = ""
       type = 'fragments'
       weight = 10
 
+[permalinks]
+  posts = "/posts/:slug/"
+  categories = "/:slug/"

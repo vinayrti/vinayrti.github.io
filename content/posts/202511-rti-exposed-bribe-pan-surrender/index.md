@@ -4,7 +4,7 @@ summary: "A citizen’s determination and a simple RTI application exposed corru
 description: "This real-life RTI story shows how a citizen used the Right to Information Act to expose a ₹15,000 bribe demand by an Income Tax officer during a PAN surrender request."
 date: 2025-11-03
 draft: false
-categories: ["RTI & Law"]
+categories: ["RTI Stories"]
 tags: ["RTI", "Corruption", "PAN", "Transparency", "Accountability"]
 cover:
   image: "featured.webp"
