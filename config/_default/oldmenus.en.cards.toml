@@ -1,0 +1,33 @@
+# ---------------------------
+# Top Menu for bvinayreddy.com (Click-only, No Dropdown)
+# ---------------------------
+
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+
+[[main]]
+  name = "RTI & Legal"
+  url = "/rti-legal/"
+  weight = 2
+
+[[main]]
+  name = "Civic & Public"
+  url = "/civic-public/"
+  weight = 3
+
+[[main]]
+  name = "Money & Life"
+  url = "/money-life/"
+  weight = 4
+
+[[main]]
+  name = "Learning"
+  url = "/learning/"
+  weight = 5
+
+[[main]]
+  name = "About"
+  pageRef = "/about/"
+  weight = 6
