@@ -181,3 +181,18 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
 }
 
+/* === Reduce top padding ONLY on legal pages === */
+body.page-privacy-policy .page-header,
+body.page-disclaimer .page-header,
+body.page-terms-of-use .page-header {
+  padding-top: 1.5rem !important;   /* reduce from default (~6rem) */
+  margin-top: 0 !important;
+}
+
+/* Optional: if those pages look too tall even after reduction */
+body.page-privacy-policy .page-header h1,
+body.page-disclaimer .page-header h1,
+body.page-terms-of-use .page-header h1 {
+  margin-top: 0.5rem !important;
+}
+
