@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <section class="section container">
+    <header class="page-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    </header>
+
+    {{ $rtiStories := where site.RegularPages "Params.categories" "intersect" (slice "RTI Stories") }}
+    {{ if gt (len $rtiStories) 0 }}
+      <div class="article-grid">
+        {{ range $rtiStories }}
+          {{ partial "article-link/card.html" . }}
+        {{ end }}
+      </div>
+    {{ else }}
+      <p><em>There are no articles to list here yet.</em></p>
+    {{ end }}
+  </section>
+{{ end }}
