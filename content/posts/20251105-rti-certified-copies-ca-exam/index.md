@@ -10,6 +10,7 @@ cover:
   image: "rti-certified-copies-ca-exam-feature.webp"
   alt: "How CA Students Can Get Their Answer Sheets PDF for FREE under RTI Act"
   caption: "CA students can now obtain certified copies of answer sheets free of cost as PDF under RTI Act."
+relative: false
 images:
   - "rti-certified-copies-ca-exam-feature.webp"
 seo:
