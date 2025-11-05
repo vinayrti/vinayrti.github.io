@@ -196,3 +196,16 @@ body.page-terms-of-use .page-header h1 {
   margin-top: 0.5rem !important;
 }
 
+/* === Fix Author Headline Wrapping on Mobile === */
+.author-headline {
+  white-space: nowrap;           /* Prevents the tagline from breaking */
+  text-align: center;            /* Ensures centered alignment */
+}
+
+@media (max-width: 600px) {
+  .author-headline {
+    font-size: 0.9rem !important;  /* Slightly smaller font on mobile */
+    line-height: 1.2 !important;
+  }
+}
+
