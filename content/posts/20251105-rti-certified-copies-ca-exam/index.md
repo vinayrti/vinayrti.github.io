@@ -10,6 +10,8 @@ cover:
   image: "rti-certified-copies-ca-exam-feature.webp"
   alt: "How CA Students Can Get Their Answer Sheets PDF for FREE under RTI Act"
   caption: "CA students can now obtain certified copies of answer sheets free of cost as PDF under RTI Act."
+images:
+  - "rti-certified-copies-ca-exam-feature.webp"
 seo:
   title: "Get CA Exam Answer Sheets for FREE | Step-by-Step RTI Guide for ICAI Students"
   description: "Learn how to obtain certified copies of your ICAI answer sheets for FREE under the RTI Act. A complete, easy-to-follow guide for CA students to download PDF copies directly from the RTI Online Portal."
