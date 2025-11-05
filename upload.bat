@@ -1,7 +1,9 @@
 @echo off
 echo ====================================================
-echo        SAFE HUGO UPLOAD SCRIPT (upload.bat)
+echo       SAFE HUGO UPLOAD SCRIPT (upload.bat)
 echo ====================================================
+
+:: Step 0 — Move to Hugo project folder
 cd /d "C:\0. bvinayreddy"
 
 :: Check if Hugo is installed
@@ -13,39 +15,42 @@ if %errorlevel% neq 0 (
     exit /b
 )
 
-:: Step 1 — Build the site
+:: Step 1 — Clean build
 echo.
-echo [1/4] Building site with Hugo...
-hugo --gc --minify
+echo [1/4] Building site with Hugo (clean + minify)...
+hugo --gc --minify --cleanDestinationDir
 if %errorlevel% neq 0 (
     echo ERROR: Hugo build failed. Check your site configuration.
     pause
     exit /b
 )
+echo ✅ Hugo site built successfully.
 
-:: Step 2 — Commit local changes
+:: Step 2 — Commit local source changes
 echo.
 echo [2/4] Committing local changes to main branch...
 git add .
-git commit -m "Update site content"
+git commit -m "Site updated on %date% at %time%"
 if %errorlevel% neq 0 (
     echo No new changes to commit or commit failed.
 )
+echo ✅ Local changes committed.
 
-:: Step 3 — Push to main (backup)
+:: Step 3 — Push source (main) branch
 echo.
 echo [3/4] Pushing main branch to GitHub...
 git push origin main
 if %errorlevel% neq 0 (
-    echo WARNING: Could not push main branch.
+    echo ⚠️  WARNING: Could not push main branch.
 )
+echo ✅ Main branch pushed successfully.
 
-:: Step 4 — Deploy /public to gh-pages
+:: Step 4 — Deploy /public to GitHub Pages
 echo.
 echo [4/4] Deploying to GitHub Pages (gh-pages branch)...
 git subtree push --prefix public origin gh-pages
 if %errorlevel% neq 0 (
-    echo ERROR: Deployment failed. Check GitHub settings or connection.
+    echo ❌ ERROR: Deployment failed. Check GitHub settings or connection.
     pause
     exit /b
 )
