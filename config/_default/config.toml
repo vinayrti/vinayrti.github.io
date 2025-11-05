@@ -23,7 +23,7 @@ googleAnalytics = ""
 [params.author]
   name = "B. Vinay Reddy"
   image = "img/avatar.jpg"
-  headline = "RTI for Change | Voice for Accountability"
+   headline = "RTI for Change&nbsp;|&nbsp;Voice for Accountability"
   subtitle = "Empowering citizens through transparency & awareness"
   bio = "Voluntarily working to empower citizens with RTI, financial literacy, and legal knowledge."
   links = [
