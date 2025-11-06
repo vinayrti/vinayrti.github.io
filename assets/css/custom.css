@@ -219,3 +219,12 @@ a[href*="github.com"][href*="edit"],
   visibility: hidden !important;
 }
 
+a[title="Edit content"],
+a[href*="github.com"][href*="content"],
+a[href*="nunocoracao"],
+a[href*="edit"],
+.text-lg.hover\:text-primary-500[title="Edit content"] {
+  display: none !important;
+  visibility: hidden !important;
+}
+
