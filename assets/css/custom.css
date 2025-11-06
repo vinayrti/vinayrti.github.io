@@ -208,4 +208,14 @@ body.page-terms-of-use .page-header h1 {
     line-height: 1.2 !important;
   }
 }
+/* Hide "Edit content" link from all posts */
+a[href*="edit"], 
+a[href*="github.com"][href*="edit"],
+.edit-page,
+.post-edit-link,
+.page__edit,
+.article__edit {
+  display: none !important;
+  visibility: hidden !important;
+}
 
