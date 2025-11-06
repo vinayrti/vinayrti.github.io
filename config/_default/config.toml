@@ -87,3 +87,9 @@ googleAnalytics = ""
 [permalinks]
   posts = "/posts/:slug/"
   categories = "/:slug/"
+
+[params]
+  showEdit = false
+  editURL = ""
+  editPath = ""
+
