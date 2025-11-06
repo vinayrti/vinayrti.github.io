@@ -228,3 +228,19 @@ a[href*="edit"],
   visibility: hidden !important;
 }
 
+/* === Option A: Pure White Background (Homepage Hero) === */
+.hero,
+.hero::before,
+.author,
+.author-header {
+  background: #ffffff !important;         /* plain white background */
+  background-image: none !important;      /* remove any texture or star image */
+  color: #000000 !important;              /* dark text for readability */
+}
+
+/* Ensure text stays dark */
+.author h1,
+.author h2,
+.author p {
+  color: #000000 !important;
+}
