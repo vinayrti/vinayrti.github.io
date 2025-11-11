@@ -17,8 +17,8 @@ mainSections = ["posts"]#, "suggestions"]
 disableImageOptimization = false
 disableTextInHeader = true
 
-# defaultFeaturedImage = "/img/background.jpg"
-# defaultBackgroundImage = "/img/background.jpg"
+defaultFeaturedImage = "/img/background.jpg"
+defaultBackgroundImage = "/img/background.jpg"
 
 highlightCurrentMenuArea = true
 smartTOC = true
@@ -34,7 +34,7 @@ smartTOCHideUnfocusedChildren = false
   showScrollToTop = true
 
 [homepage]
-  layout = "profile" # valid options: page, profile, custom
+  layout = "background" # valid options: page, profile, custom
   #homepageImage = "img/background.jpg"
   showRecent = true
   showRecentItems = 3
