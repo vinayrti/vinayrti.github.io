@@ -244,3 +244,6 @@ a[href*="edit"],
 .author p {
   color: #000000 !important;
 }
+.language-switcher, .i18n-switcher, .navbar__languages {
+    display: none !important;
+}
