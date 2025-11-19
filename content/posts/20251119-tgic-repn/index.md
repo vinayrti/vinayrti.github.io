@@ -209,6 +209,8 @@ No. TGIC clearly states that hard copies are not required after online submissio
 ### **5. Does the RTI Act allow online filing?**
 Yes. Section 6(1) of the RTI Act allows electronic filing. The Supreme Court’s 2023 order in *Pravasi Legal Cell v. Union of India* directed all States to operationalize online RTI portals.
 
+![Cover Image](og-tgic-online-filing.png)
+
 ---
 
 <!-- FAQ Schema (Hidden for Google SEO) -->
