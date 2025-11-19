@@ -11,8 +11,7 @@ cover:
   alt: "TGIC Online Filing Social Preview"
   caption: "Telangana Information Commission enables online filing for Second Appeals and Complaints."
 relative: false
-images:
-  - "featured.webp"
+
 
 seo:
   title: "TGIC Activates Online Filing for Second Appeals & Complaints | RTI Telangana Update"
