@@ -20,7 +20,6 @@ keywords: ["TGIC online filing", "Telangana RTI", "Second Appeal TGIC", "RTI Com
 showTableOfContents: true
 draft: false
 ---
-![Cover Image](og-tgic-online-filing.png)
 In a welcome move towards digital transparency, the Telangana State Information Commission (TGIC) has now activated the facility for online filing of Second Appeals and Complaints on its official website — https://tgic.telangana.gov.in.
 
 This step follows a representation I submitted to the Hon’ble Chief Information Commissioner on 12 November 2025, highlighting that the TGIC Handbook (October 2025 Edition) mentioned the availability of such a facility, though it was not yet operational on the portal.
