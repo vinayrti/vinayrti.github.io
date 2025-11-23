@@ -3,6 +3,9 @@ backend:
   repo: vinayrti/vinayrti.github.io
   branch: main
   site_domain: startling-gumdrop-90e3d2.netlify.app
+  base_url: https://startling-gumdrop-90e3d2.netlify.app
+
+
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
