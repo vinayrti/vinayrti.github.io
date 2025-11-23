@@ -1,29 +1,22 @@
+local_backend: true
+
 backend:
   name: github
   repo: vinayrti/vinayrti.github.io
   branch: main
-  site_domain: startling-gumdrop-90e3d2.netlify.app
-  base_url: https://startling-gumdrop-90e3d2.netlify.app
-
-
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
 
-publish_mode: editorial_workflow
-
 collections:
   - name: "posts"
     label: "Posts"
-    label_singular: "Post"
     folder: "content/posts"
     create: true
     slug: "{{year}}{{month}}{{day}}-{{slug}}"
     path: "{{slug}}/index"
-    media_folder: ""        # images inside same folder as index.md
+    media_folder: ""
     public_folder: ""
-    format: "frontmatter"
-
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string", required: false }
