@@ -1,18 +1,17 @@
 ---
-title: "Posts"
-date: 2022-06-13T20:55:37+01:00
 draft: false
-
-showDate : false
-showDateUpdated : false
-showHeadingAnchors : false
-showPagination : false
-showReadingTime : false
-showTableOfContents : true
-showTaxonomies : false 
-showWordCount : false
-showSummary : false
-sharingLinks : false
-
+showTableOfContents: true
+showWordCount: false
+showSummary: false
+showDate: false
+showTaxonomies: false
+date: 2025-11-24T09:26:00.000+05:30
+showDateUpdated: false
+showPagination: false
+title: Test Posting
+showHeadingAnchors: false
+image: https://decapcms.org/img/decap-3.png
+showReadingTime: false
+sharingLinks: false
 ---
-
+This is  a test post from Decap CMS free version
