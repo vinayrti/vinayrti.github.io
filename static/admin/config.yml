@@ -2,25 +2,300 @@ backend:
   name: github
   repo: vinayrti/vinayrti.github.io
   branch: main
+  base_url: https://shiny-scone-76695a.netlify.app
+  auth_endpoint: /.netlify/functions/auth
 
+# default upload folder (only used for non-bundle content)
 media_folder: "static/uploads"
 public_folder: "/uploads"
 
+local_backend: false
+
 collections:
+
+  ###################################################################
+  #  POSTS  (main RTI / legal blog – matches your current post)
+  ###################################################################
   - name: "posts"
-    label: "Posts"
+    label: "Blog Posts"
+    label_singular: "Post"
     folder: "content/posts"
     create: true
-    slug: "{{year}}{{month}}{{day}}-{{slug}}"
-    path: "{{slug}}/index"
+
+    # You use page bundles: each post has its own folder with index.md
+    # and images inside. This keeps that pattern.
     media_folder: ""
     public_folder: ""
+    path: "{{slug}}/index"
+    slug: "{{slug}}"
+
+    editor:
+      preview: true
+
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string", required: false }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - { label: "Description (excerpt)", name: "description", widget: "string", required: false }
+      - { label: "Summary (short intro)", name: "summary", widget: "text", required: false }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+
+      # Your “topic areas” are implemented as Hugo categories
+      - label: "Categories (Topic areas)"
+        name: "categories"
+        widget: "list"
+        required: false
+        hint: "Examples: RTI Stories, RTI Formats, Legal Awareness, Consumer Cases, Money & Life, Learning, etc."
+        field:
+          label: "Category"
+          name: "category"
+          widget: "string"
+
       - { label: "Tags", name: "tags", widget: "list", required: false }
-      - { label: "Categories", name: "categories", widget: "list", required: false }
-      - { label: "Featured Image", name: "featuredImage", widget: "image", required: false }
+
+      - { label: "Author", name: "author", widget: "string", required: false, default: "B. Vinay Reddy" }
+
+      # Blowfish cover block (matches your sample post)
+      - label: "Cover Image"
+        name: "cover"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Image file", name: "image", widget: "image", required: false }
+          - { label: "Alt text", name: "alt", widget: "string", required: false }
+          - { label: "Caption", name: "caption", widget: "string", required: false }
+
+      - label: "Additional Images"
+        name: "images"
+        widget: "list"
+        required: false
+        field:
+          label: "Image"
+          name: "image"
+          widget: "image"
+        hint: "Any extra images used in article or social previews."
+
+      - { label: "Use relative image paths", name: "relative", widget: "boolean", required: false, default: false }
+
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "SEO Title", name: "title", widget: "string", required: false }
+          - { label: "SEO Description", name: "description", widget: "text", required: false }
+
+      - label: "SEO Keywords"
+        name: "keywords"
+        widget: "list"
+        required: false
+        field:
+          label: "Keyword"
+          name: "keyword"
+          widget: "string"
+
       - { label: "Body", name: "body", widget: "markdown" }
+
+  ###################################################################
+  #  PROJECTS  (uses existing /content/projects)
+  ###################################################################
+  - name: "projects"
+    label: "Projects"
+    label_singular: "Project"
+    folder: "content/projects"
+    create: true
+    media_folder: ""
+    public_folder: ""
+    path: "{{slug}}/index"
+    slug: "{{slug}}"
+
+    editor:
+      preview: true
+
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Short Description", name: "description", widget: "string", required: false }
+      - { label: "Summary", name: "summary", widget: "text", required: false }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Categories", name: "categories", widget: "list", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+      - label: "Cover Image"
+        name: "cover"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Image file", name: "image", widget: "image", required: false }
+          - { label: "Alt text", name: "alt", widget: "string", required: false }
+          - { label: "Caption", name: "caption", widget: "string", required: false }
+
+      - { label: "Repository URL", name: "repo", widget: "string", required: false, hint: "GitHub / GitLab etc." }
+      - { label: "Live Demo URL", name: "demo", widget: "string", required: false }
+
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "SEO Title", name: "title", widget: "string", required: false }
+          - { label: "SEO Description", name: "description", widget: "text", required: false }
+
+      - label: "SEO Keywords"
+        name: "keywords"
+        widget: "list"
+        required: false
+        field:
+          label: "Keyword"
+          name: "keyword"
+          widget: "string"
+
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  ###################################################################
+  #  NOTES  (shorter pieces / quick tips)
+  ###################################################################
+  - name: "notes"
+    label: "Notes"
+    label_singular: "Note"
+    folder: "content/notes"
+    create: true
+    media_folder: ""
+    public_folder: ""
+    path: "{{slug}}/index"
+    slug: "{{slug}}"
+
+    editor:
+      preview: true
+
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Categories", name: "categories", widget: "list", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Featured image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  ###################################################################
+  #  PAGES (About only – no separate Contact page)
+  ###################################################################
+  - name: "pages"
+    label: "Pages"
+    editor:
+      preview: true
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "content/about/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Draft", name: "draft", widget: "boolean", default: false }
+
+          # All your About-page display toggles (copied from page) 
+          - { label: "Show Date", name: "showDate", widget: "boolean", required: false }
+          - { label: "Show Date Only In Article", name: "showDateOnlyInArticle", widget: "boolean", required: false }
+          - { label: "Show Date Updated", name: "showDateUpdated", widget: "boolean", required: false }
+          - { label: "Show Heading Anchors", name: "showHeadingAnchors", widget: "boolean", required: false }
+          - { label: "Show Pagination", name: "showPagination", widget: "boolean", required: false }
+          - { label: "Show Reading Time", name: "showReadingTime", widget: "boolean", required: false }
+          - { label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean", required: false }
+          - { label: "Show Taxonomies", name: "showTaxonomies", widget: "boolean", required: false }
+          - { label: "Show Word Count", name: "showWordCount", widget: "boolean", required: false }
+          - { label: "Show Summary", name: "showSummary", widget: "boolean", required: false }
+          - { label: "Show Sharing Links", name: "sharingLinks", widget: "boolean", required: false }
+          - { label: "Show Edit Link", name: "showEdit", widget: "boolean", required: false }
+          - { label: "Show Views", name: "showViews", widget: "boolean", required: false }
+          - { label: "Show Likes", name: "showLikes", widget: "boolean", required: false }
+          - { label: "Show Author", name: "showAuthor", widget: "boolean", required: false }
+          - { label: "Layout Background Header Space", name: "layoutBackgroundHeaderSpace", widget: "boolean", required: false }
+
+          - { label: "Body", name: "body", widget: "markdown" }
+
+  ###################################################################
+  #  SITE SETTINGS  (Homepage + article display etc.)
+  ###################################################################
+  - name: "settings"
+    label: "Site Settings"
+    editor:
+      preview: false
+    files:
+      - label: "Theme & Homepage"
+        name: "theme_homepage"
+        file: "config/_default/params.toml"
+        format: "toml"
+        fields:
+          - { label: "Color Scheme", name: "colorScheme", widget: "string", required: false }
+          - { label: "Default Appearance (light/dark)", name: "defaultAppearance", widget: "string", required: false }
+          - { label: "Enable Search", name: "enableSearch", widget: "boolean", required: false }
+          - { label: "Enable Code Copy Button", name: "enableCodeCopy", widget: "boolean", required: false }
+
+          - label: "Homepage"
+            name: "homepage"
+            widget: "object"
+            fields:
+              - { label: "Layout", name: "layout", widget: "string", hint: "page, profile, background, custom" }
+              - { label: "Show Recent Posts", name: "showRecent", widget: "boolean", required: false }
+              - { label: "Number of Recent Posts", name: "showRecentItems", widget: "number", value_type: "int", required: false }
+              - { label: "Show 'More' Link", name: "showMoreLink", widget: "boolean", required: false }
+              - { label: "More Link Destination", name: "showMoreLinkDest", widget: "string", required: false }
+              - { label: "Card View", name: "cardView", widget: "boolean", required: false }
+              - { label: "Blur Background", name: "layoutBackgroundBlur", widget: "boolean", required: false }
+
+          - label: "Article Layout"
+            name: "article"
+            widget: "object"
+            fields:
+              - { label: "Show Date", name: "showDate", widget: "boolean", required: false }
+              - { label: "Show Reading Time", name: "showReadingTime", widget: "boolean", required: false }
+              - { label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean", required: false }
+              - { label: "Show Related Content", name: "showRelatedContent", widget: "boolean", required: false }
+              - { label: "Related Content Limit", name: "relatedContentLimit", widget: "number", value_type: "int", required: false }
+              - { label: "Show Taxonomies", name: "showTaxonomies", widget: "boolean", required: false }
+              - { label: "Show Summary", name: "showSummary", widget: "boolean", required: false }
+              - { label: "Show Breadcrumbs", name: "showBreadcrumbs", widget: "boolean", required: false }
+              - { label: "Show Draft Label", name: "showDraftLabel", widget: "boolean", required: false }
+
+      - label: "Site & Author Info"
+        name: "site_author"
+        file: "config/_default/config.toml"
+        format: "toml"
+        fields:
+          - { label: "Base URL", name: "baseURL", widget: "string" }
+          - { label: "Default Content Language", name: "defaultContentLanguage", widget: "string", required: false }
+          - { label: "Enable Robots.txt", name: "enableRobotsTXT", widget: "boolean", required: false }
+          - { label: "Summary Length (words)", name: "summaryLength", widget: "number", value_type: "int", required: false }
+
+          - label: "Author"
+            name: "params.author"
+            widget: "object"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Avatar Image Path", name: "image", widget: "string", required: false }
+              - { label: "Headline", name: "headline", widget: "string", required: false }
+              - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+              - { label: "Bio", name: "bio", widget: "text", required: false }
+
+  ###################################################################
+  #  NAVIGATION MENU EDITOR  (menus.toml → Main menu + children)
+  ###################################################################
+  - name: "navigation"
+    label: "Navigation Menus"
+    editor:
+      preview: false
+    files:
+      - label: "Main Menu"
+        name: "main_menu"
+        file: "config/_default/menus.toml"
+        format: "toml"
+        fields:
+          - label: "Main Menu Items"
+            name: "main"
+            widget: "list"
+            summary: "{{fields.name}} ({{fields.url || fields.pageRef}})"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "URL (for non-content links)", name: "url", widget: "string", required: false }
+              - { label: "Page Ref (for content sections)", name: "pageRef", widget: "string", required: false, hint: "Example: /rti-stories/ or /about/" }
+              - { label: "Identifier (for parents like 'rti-legal')", name: "identifier", widget: "string", required: false }
+              - { label: "Parent Identifier (for submenu items)", name: "parent", widget: "string", required: false }
+              - { label: "Weight (order)", name: "weight", widget: "number", value_type: "int", required: false }
