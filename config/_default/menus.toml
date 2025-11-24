@@ -1,116 +1,115 @@
-# ---------------------------
-# Top Menu for bvinayreddy.com
-# Compatible with Hugo Blowfish
-# ---------------------------
+[[main]]
+name = "Home"
+pageRef = "/"
+weight = 1
 
 [[main]]
-  name = "Home"
-  pageRef = "/"
-  weight = 1
+name = "RTI & Legal"
+url = "/rti-legal/"
+weight = 2
+identifier = "rti-legal"
 
 [[main]]
-  name = "RTI & Legal"
-  url = "/rti-legal/"
-  weight = 2
-  identifier = "rti-legal"
-
-  [[main]]
-    name = "RTI Stories"
-    parent = "rti-legal"
-    pageRef = "/rti-stories/"
-    weight = 1
-
-  [[main]]
-    name = "RTI Formats"
-    parent = "rti-legal"
-    pageRef = "/rti-formats/"
-    weight = 2
-
-  [[main]]
-    name = "Legal Awareness"
-    parent = "rti-legal"
-    pageRef = "/legal-awareness/"
-    weight = 3
+name = "RTI Stories"
+parent = "rti-legal"
+pageRef = "/rti-stories/"
+weight = 1
 
 [[main]]
-  name = "Civic & Public"
-  url = "/civic-public/"
-  weight = 3
-  identifier = "civic-public"
-
-  [[main]]
-    name = "Consumer Cases"
-    parent = "civic-public"
-    pageRef = "/consumer-cases/"
-    weight = 1
-
-  [[main]]
-    name = "Citizen Issues"
-    parent = "civic-public"
-    pageRef = "/citizen-issues/"
-    weight = 2
-
-  [[main]]
-    name = "Land & Property"
-    parent = "civic-public"
-    pageRef = "/land-property/"
-    weight = 3
+name = "RTI Formats"
+parent = "rti-legal"
+pageRef = "/rti-formats/"
+weight = 2
 
 [[main]]
-  name = "Money & Life"
-  url = "/money-life/"
-  weight = 4
-  identifier = "money-life"
-
-  [[main]]
-    name = "Insurance"
-    parent = "money-life"
-    pageRef = "/insurance/"
-    weight = 1
-
-  [[main]]
-    name = "Investments"
-    parent = "money-life"
-    pageRef = "/investments/"
-    weight = 2
-
-  [[main]]
-    name = "Natural Farming"
-    parent = "money-life"
-    pageRef = "/natural-farming/"
-    weight = 3
-
-  [[main]]
-    name = "Lifestyle"
-    parent = "money-life"
-    pageRef = "/lifestyle/"
-    weight = 4
+name = "Legal Awareness"
+parent = "rti-legal"
+pageRef = "/legal-awareness/"
+weight = 3
 
 [[main]]
-  name = "Learning"
-  url = "/learning/"
-  weight = 5
-  identifier = "learning"
-
-  [[main]]
-    name = "Books"
-    parent = "learning"
-    pageRef = "/books/"
-    weight = 1
-
-  [[main]]
-    name = "Tools & Portals"
-    parent = "learning"
-    pageRef = "/tools-portals/"
-    weight = 2
-
-  [[main]]
-    name = "Blog Archive"
-    parent = "learning"
-    pageRef = "/blog-archive/"
-    weight = 3
+name = "Civic & Public"
+url = "/civic-public/"
+weight = 3
+identifier = "civic-public"
 
 [[main]]
-  name = "About"
-  url = "/about/"
-  weight = 6
+name = "Consumer Cases"
+parent = "civic-public"
+pageRef = "/consumer-cases/"
+weight = 1
+
+[[main]]
+name = "Citizen Issues"
+parent = "civic-public"
+pageRef = "/citizen-issues/"
+weight = 2
+
+[[main]]
+name = "Land & Property"
+parent = "civic-public"
+pageRef = "/land-property/"
+weight = 3
+
+[[main]]
+name = "Money & Life"
+url = "/money-life/"
+weight = 4
+identifier = "money-life"
+
+[[main]]
+name = "Insurance"
+parent = "money-life"
+pageRef = "/insurance/"
+weight = 1
+
+[[main]]
+name = "Investments"
+parent = "money-life"
+pageRef = "/investments/"
+weight = 2
+
+[[main]]
+name = "Natural Farming"
+parent = "money-life"
+pageRef = "/natural-farming/"
+weight = 3
+
+[[main]]
+name = "Lifestyle"
+parent = "money-life"
+pageRef = "/lifestyle/"
+weight = 4
+
+[[main]]
+name = "Learning"
+url = "/learning/"
+weight = 5
+identifier = "learning"
+
+[[main]]
+name = "Books"
+parent = "learning"
+pageRef = "/books/"
+weight = 1
+
+[[main]]
+name = "Tools & Portals"
+parent = "learning"
+pageRef = "/tools-portals/"
+weight = 2
+
+[[main]]
+name = "Blog Archive"
+parent = "learning"
+pageRef = "/blog-archive/"
+weight = 3
+
+[[main]]
+name = "About"
+url = "/about/"
+weight = 6
+
+[[main]]
+name = "Contact "
+weight = 7
