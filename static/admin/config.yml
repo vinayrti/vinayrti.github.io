@@ -22,8 +22,6 @@ collections:
     folder: "content/posts"
     create: true
 
-    # You use page bundles: each post has its own folder with index.md
-    # and images inside. This keeps that pattern.
     media_folder: ""
     public_folder: ""
     path: "{{slug}}/index"
@@ -39,7 +37,6 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Draft", name: "draft", widget: "boolean", default: false }
 
-      # Your “topic areas” are implemented as Hugo categories
       - label: "Categories (Topic areas)"
         name: "categories"
         widget: "list"
@@ -54,7 +51,6 @@ collections:
 
       - { label: "Author", name: "author", widget: "string", required: false, default: "B. Vinay Reddy" }
 
-      # Blowfish cover block (matches your sample post)
       - label: "Cover Image"
         name: "cover"
         widget: "object"
@@ -96,7 +92,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
   ###################################################################
-  #  PROJECTS  (uses existing /content/projects)
+  #  PROJECTS
   ###################################################################
   - name: "projects"
     label: "Projects"
@@ -129,7 +125,7 @@ collections:
           - { label: "Alt text", name: "alt", widget: "string", required: false }
           - { label: "Caption", name: "caption", widget: "string", required: false }
 
-      - { label: "Repository URL", name: "repo", widget: "string", required: false, hint: "GitHub / GitLab etc." }
+      - { label: "Repository URL", name: "repo", widget: "string", required: false }
       - { label: "Live Demo URL", name: "demo", widget: "string", required: false }
 
       - label: "SEO"
@@ -152,7 +148,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
   ###################################################################
-  #  NOTES  (shorter pieces / quick tips)
+  #  NOTES
   ###################################################################
   - name: "notes"
     label: "Notes"
@@ -177,7 +173,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
   ###################################################################
-  #  PAGES (About only – no separate Contact page)
+  #  PAGES (About)
   ###################################################################
   - name: "pages"
     label: "Pages"
@@ -191,7 +187,6 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Draft", name: "draft", widget: "boolean", default: false }
 
-          # All your About-page display toggles (copied from page) 
           - { label: "Show Date", name: "showDate", widget: "boolean", required: false }
           - { label: "Show Date Only In Article", name: "showDateOnlyInArticle", widget: "boolean", required: false }
           - { label: "Show Date Updated", name: "showDateUpdated", widget: "boolean", required: false }
@@ -212,7 +207,7 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
 
   ###################################################################
-  #  SITE SETTINGS  (Homepage + article display etc.)
+  #  SITE SETTINGS
   ###################################################################
   - name: "settings"
     label: "Site Settings"
@@ -224,36 +219,36 @@ collections:
         file: "config/_default/params.toml"
         format: "toml"
         fields:
-          - { label: "Color Scheme", name: "colorScheme", widget: "string", required: false }
-          - { label: "Default Appearance (light/dark)", name: "defaultAppearance", widget: "string", required: false }
-          - { label: "Enable Search", name: "enableSearch", widget: "boolean", required: false }
-          - { label: "Enable Code Copy Button", name: "enableCodeCopy", widget: "boolean", required: false }
+          - { label: "Color Scheme", name: "colorScheme", widget: "string" }
+          - { label: "Default Appearance", name: "defaultAppearance", widget: "string" }
+          - { label: "Enable Search", name: "enableSearch", widget: "boolean" }
+          - { label: "Enable Code Copy Button", name: "enableCodeCopy", widget: "boolean" }
 
           - label: "Homepage"
             name: "homepage"
             widget: "object"
             fields:
-              - { label: "Layout", name: "layout", widget: "string", hint: "page, profile, background, custom" }
-              - { label: "Show Recent Posts", name: "showRecent", widget: "boolean", required: false }
-              - { label: "Number of Recent Posts", name: "showRecentItems", widget: "number", value_type: "int", required: false }
-              - { label: "Show 'More' Link", name: "showMoreLink", widget: "boolean", required: false }
-              - { label: "More Link Destination", name: "showMoreLinkDest", widget: "string", required: false }
-              - { label: "Card View", name: "cardView", widget: "boolean", required: false }
-              - { label: "Blur Background", name: "layoutBackgroundBlur", widget: "boolean", required: false }
+              - { label: "Layout", name: "layout", widget: "string" }
+              - { label: "Show Recent Posts", name: "showRecent", widget: "boolean" }
+              - { label: "Recent Post Count", name: "showRecentItems", widget: "number" }
+              - { label: "Show More Link", name: "showMoreLink", widget: "boolean" }
+              - { label: "More Link Destination", name: "showMoreLinkDest", widget: "string" }
+              - { label: "Card View", name: "cardView", widget: "boolean" }
+              - { label: "Blur Background", name: "layoutBackgroundBlur", widget: "boolean" }
 
           - label: "Article Layout"
             name: "article"
             widget: "object"
             fields:
-              - { label: "Show Date", name: "showDate", widget: "boolean", required: false }
-              - { label: "Show Reading Time", name: "showReadingTime", widget: "boolean", required: false }
-              - { label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean", required: false }
-              - { label: "Show Related Content", name: "showRelatedContent", widget: "boolean", required: false }
-              - { label: "Related Content Limit", name: "relatedContentLimit", widget: "number", value_type: "int", required: false }
-              - { label: "Show Taxonomies", name: "showTaxonomies", widget: "boolean", required: false }
-              - { label: "Show Summary", name: "showSummary", widget: "boolean", required: false }
-              - { label: "Show Breadcrumbs", name: "showBreadcrumbs", widget: "boolean", required: false }
-              - { label: "Show Draft Label", name: "showDraftLabel", widget: "boolean", required: false }
+              - { label: "Show Date", name: "showDate", widget: "boolean" }
+              - { label: "Show Reading Time", name: "showReadingTime", widget: "boolean" }
+              - { label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean" }
+              - { label: "Show Related Content", name: "showRelatedContent", widget: "boolean" }
+              - { label: "Related Content Limit", name: "relatedContentLimit", widget: "number" }
+              - { label: "Show Taxonomies", name: "showTaxonomies", widget: "boolean" }
+              - { label: "Show Summary", name: "showSummary", widget: "boolean" }
+              - { label: "Show Breadcrumbs", name: "showBreadcrumbs", widget: "boolean" }
+              - { label: "Show Draft Label", name: "showDraftLabel", widget: "boolean" }
 
       - label: "Site & Author Info"
         name: "site_author"
@@ -261,22 +256,22 @@ collections:
         format: "toml"
         fields:
           - { label: "Base URL", name: "baseURL", widget: "string" }
-          - { label: "Default Content Language", name: "defaultContentLanguage", widget: "string", required: false }
-          - { label: "Enable Robots.txt", name: "enableRobotsTXT", widget: "boolean", required: false }
-          - { label: "Summary Length (words)", name: "summaryLength", widget: "number", value_type: "int", required: false }
+          - { label: "Default Language", name: "defaultContentLanguage", widget: "string" }
+          - { label: "Enable Robots.txt", name: "enableRobotsTXT", widget: "boolean" }
+          - { label: "Summary Length", name: "summaryLength", widget: "number" }
 
           - label: "Author"
             name: "params.author"
             widget: "object"
             fields:
               - { label: "Name", name: "name", widget: "string" }
-              - { label: "Avatar Image Path", name: "image", widget: "string", required: false }
-              - { label: "Headline", name: "headline", widget: "string", required: false }
-              - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
-              - { label: "Bio", name: "bio", widget: "text", required: false }
+              - { label: "Avatar Image Path", name: "image", widget: "string" }
+              - { label: "Headline", name: "headline", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Bio", name: "bio", widget: "text" }
 
   ###################################################################
-  #  NAVIGATION MENU EDITOR  (menus.toml → Main menu + children)
+  #  NAVIGATION MENU EDITOR
   ###################################################################
   - name: "navigation"
     label: "Navigation Menus"
@@ -294,8 +289,8 @@ collections:
             summary: "{{fields.name}} ({{fields.url || fields.pageRef}})"
             fields:
               - { label: "Name", name: "name", widget: "string" }
-              - { label: "URL (for non-content links)", name: "url", widget: "string", required: false }
-              - { label: "Page Ref (for content sections)", name: "pageRef", widget: "string", required: false, hint: "Example: /rti-stories/ or /about/" }
-              - { label: "Identifier (for parents like 'rti-legal')", name: "identifier", widget: "string", required: false }
-              - { label: "Parent Identifier (for submenu items)", name: "parent", widget: "string", required: false }
-              - { label: "Weight (order)", name: "weight", widget: "number", value_type: "int", required: false }
+              - { label: "URL", name: "url", widget: "string", required: false }
+              - { label: "Page Ref", name: "pageRef", widget: "string", required: false }
+              - { label: "Identifier", name: "identifier", widget: "string", required: false }
+              - { label: "Parent Identifier", name: "parent", widget: "string", required: false }
+              - { label: "Weight", name: "weight", widget: "number" }
