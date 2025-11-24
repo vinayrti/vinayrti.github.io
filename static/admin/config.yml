@@ -3,24 +3,24 @@ backend:
   repo: vinayrti/vinayrti.github.io
   branch: main
 
+  auth_type: implicit
+  app_id: Ov23liywpJNLIHzi6KjK
+  base_url: https://shiny-scone-76695a.netlify.app
+  auth_endpoint: /.netlify/functions/auth
+
 media_folder: "static/uploads"
 public_folder: "/uploads"
 
 collections:
   - name: "posts"
-    label: "Posts"
+    label: "Blog Posts"
     folder: "content/posts"
     create: true
-    slug: "{{year}}{{month}}{{day}}-{{slug}}"
-    path: "{{slug}}/index"
-    media_folder: ""
-    public_folder: ""
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Draft", name: "draft", widget: "boolean", default: true }
-      - { label: "Tags", name: "tags", widget: "list", required: false }
-      - { label: "Categories", name: "categories", widget: "list", required: false }
-      - { label: "Featured Image", name: "featuredImage", widget: "image", required: false }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Featured Image", name: "image", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
