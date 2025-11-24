@@ -5,7 +5,7 @@ backend:
   base_url: https://shiny-scone-76695a.netlify.app
   auth_endpoint: /.netlify/functions/auth
 
-# default upload folder (only used for non-bundle content)
+# Fallback media folder (used only when a collection doesn't override it)
 media_folder: "static/uploads"
 public_folder: "/uploads"
 
@@ -14,7 +14,7 @@ local_backend: false
 collections:
 
   ###################################################################
-  #  POSTS  (main RTI / legal blog – matches your current post)
+  #  BLOG POSTS  – main RTI / legal blog
   ###################################################################
   - name: "posts"
     label: "Blog Posts"
@@ -22,6 +22,7 @@ collections:
     folder: "content/posts"
     create: true
 
+    # Each post is a page bundle: folder + index.md + images inside
     media_folder: ""
     public_folder: ""
     path: "{{slug}}/index"
@@ -31,17 +32,34 @@ collections:
       preview: true
 
     fields:
+      # ---- Core metadata ----
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description (excerpt)", name: "description", widget: "string", required: false }
       - { label: "Summary (short intro)", name: "summary", widget: "text", required: false }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Draft", name: "draft", widget: "boolean", default: false }
 
+      # ---- Content type / templates (for your own organization) ----
+      - label: "Post Type"
+        name: "post_type"
+        widget: "select"
+        required: false
+        options:
+          - { label: "RTI Story", value: "rti-story" }
+          - { label: "RTI Guide / How-to", value: "rti-guide" }
+          - { label: "RTI Format Example", value: "rti-format" }
+          - { label: "Legal Awareness", value: "legal-awareness" }
+          - { label: "Consumer Case", value: "consumer-case" }
+          - { label: "Civic & Public", value: "civic-public" }
+          - { label: "Money & Life", value: "money-life" }
+          - { label: "Learning Notes", value: "learning-notes" }
+
+      # ---- Taxonomies / topic areas ----
       - label: "Categories (Topic areas)"
         name: "categories"
         widget: "list"
         required: false
-        hint: "Examples: RTI Stories, RTI Formats, Legal Awareness, Consumer Cases, Money & Life, Learning, etc."
+        hint: "Examples: RTI Stories, RTI Formats, Legal Awareness, Consumer Cases, Money & Life, Learning…"
         field:
           label: "Category"
           name: "category"
@@ -49,8 +67,10 @@ collections:
 
       - { label: "Tags", name: "tags", widget: "list", required: false }
 
+      # ---- Author ----
       - { label: "Author", name: "author", widget: "string", required: false, default: "B. Vinay Reddy" }
 
+      # ---- Images (cover + thumbnail) ----
       - label: "Cover Image"
         name: "cover"
         widget: "object"
@@ -60,6 +80,8 @@ collections:
           - { label: "Alt text", name: "alt", widget: "string", required: false }
           - { label: "Caption", name: "caption", widget: "string", required: false }
 
+      - { label: "Thumbnail (card) Image", name: "thumbnail", widget: "image", required: false, hint: "Optional: use a different small image for cards / lists." }
+
       - label: "Additional Images"
         name: "images"
         widget: "list"
@@ -68,10 +90,11 @@ collections:
           label: "Image"
           name: "image"
           widget: "image"
-        hint: "Any extra images used in article or social previews."
+        hint: "Any extra images used inside the article."
 
       - { label: "Use relative image paths", name: "relative", widget: "boolean", required: false, default: false }
 
+      # ---- SEO & indexing ----
       - label: "SEO"
         name: "seo"
         widget: "object"
@@ -79,6 +102,7 @@ collections:
         fields:
           - { label: "SEO Title", name: "title", widget: "string", required: false }
           - { label: "SEO Description", name: "description", widget: "text", required: false }
+          - { label: "OpenGraph / Social Image", name: "image", widget: "image", required: false }
 
       - label: "SEO Keywords"
         name: "keywords"
@@ -89,7 +113,111 @@ collections:
           name: "keyword"
           widget: "string"
 
+      - { label: "Canonical URL (if this is republished elsewhere)", name: "canonicalURL", widget: "string", required: false }
+      - { label: "No-index (hide from search engines)", name: "noIndex", widget: "boolean", required: false, default: false }
+
+      # ---- AI content blocks (for drafting with ChatGPT etc.) ----
+      - label: "AI Content Blocks"
+        name: "ai_blocks"
+        widget: "list"
+        required: false
+        hint: "Use these as slots to paste AI-generated outlines, FAQs, summaries, etc."
+        fields:
+          - { label: "Block Title", name: "title", widget: "string" }
+          - { label: "Prompt / Notes", name: "prompt", widget: "text", required: false }
+          - { label: "Content", name: "content", widget: "markdown", required: false }
+
+      # ---- Main article body ----
       - { label: "Body", name: "body", widget: "markdown" }
+
+  ###################################################################
+  #  RTI FORMATS – reusable templates / sample RTI drafts
+  ###################################################################
+  - name: "rti_formats"
+    label: "RTI Formats / Templates"
+    label_singular: "RTI Format"
+    folder: "content/rti-formats"
+    create: true
+    media_folder: ""
+    public_folder: ""
+    path: "{{slug}}/index"
+    slug: "{{slug}}"
+
+    editor:
+      preview: true
+
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Short Description", name: "description", widget: "string", required: false }
+      - { label: "Summary (how this format helps)", name: "summary", widget: "text", required: false }
+      - { label: "Date (when you wrote/updated format)", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        required: false
+        field:
+          label: "Category"
+          name: "category"
+          widget: "string"
+
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+      - label: "Cover Image"
+        name: "cover"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Image file", name: "image", widget: "image", required: false }
+          - { label: "Alt text", name: "alt", widget: "string", required: false }
+          - { label: "Caption", name: "caption", widget: "string", required: false }
+
+      - { label: "Thumbnail (card) Image", name: "thumbnail", widget: "image", required: false }
+
+      # ---- RTI-specific fields for reusable templates ----
+      - { label: "Public Authority / Department", name: "public_authority", widget: "string", required: false }
+      - { label: "Ministry / Government", name: "ministry", widget: "string", required: false }
+      - { label: "Subject Line", name: "subject", widget: "string", required: false }
+      - { label: "Related Act Sections (e.g., Section 6(1))", name: "act_sections", widget: "list", required: false }
+
+      - { label: "Applicant Details (block at top)", name: "applicant_details", widget: "markdown", required: false }
+      - { label: "Information Sought (questions)", name: "information_sought", widget: "markdown", required: false }
+      - { label: "Grounds / Background facts", name: "grounds", widget: "markdown", required: false }
+      - { label: "Relief Sought / Prayer", name: "relief_sought", widget: "markdown", required: false }
+      - { label: "Additional Notes to Applicant", name: "notes_to_applicant", widget: "markdown", required: false }
+
+      # AI helper section so you can store base prompts per template
+      - label: "AI Helper / Drafting Notes"
+        name: "ai_helper"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Prompt to generate customised RTI", name: "prompt", widget: "text", required: false }
+          - { label: "Example instructions to user", name: "instructions", widget: "markdown", required: false }
+
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "SEO Title", name: "title", widget: "string", required: false }
+          - { label: "SEO Description", name: "description", widget: "text", required: false }
+          - { label: "OpenGraph / Social Image", name: "image", widget: "image", required: false }
+
+      - label: "SEO Keywords"
+        name: "keywords"
+        widget: "list"
+        required: false
+        field:
+          label: "Keyword"
+          name: "keyword"
+          widget: "string"
+
+      - { label: "Canonical URL", name: "canonicalURL", widget: "string", required: false }
+      - { label: "No-index (hide from search engines)", name: "noIndex", widget: "boolean", required: false, default: false }
+
+      - { label: "Body (full RTI text if needed)", name: "body", widget: "markdown" }
 
   ###################################################################
   #  PROJECTS
@@ -125,6 +253,8 @@ collections:
           - { label: "Alt text", name: "alt", widget: "string", required: false }
           - { label: "Caption", name: "caption", widget: "string", required: false }
 
+      - { label: "Thumbnail (card) Image", name: "thumbnail", widget: "image", required: false }
+
       - { label: "Repository URL", name: "repo", widget: "string", required: false }
       - { label: "Live Demo URL", name: "demo", widget: "string", required: false }
 
@@ -135,6 +265,7 @@ collections:
         fields:
           - { label: "SEO Title", name: "title", widget: "string", required: false }
           - { label: "SEO Description", name: "description", widget: "text", required: false }
+          - { label: "OpenGraph / Social Image", name: "image", widget: "image", required: false }
 
       - label: "SEO Keywords"
         name: "keywords"
@@ -173,7 +304,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
   ###################################################################
-  #  PAGES (About)
+  #  PAGES (About only)
   ###################################################################
   - name: "pages"
     label: "Pages"
@@ -207,7 +338,7 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
 
   ###################################################################
-  #  SITE SETTINGS
+  #  SITE SETTINGS (params.toml + config.toml)
   ###################################################################
   - name: "settings"
     label: "Site Settings"
@@ -219,59 +350,59 @@ collections:
         file: "config/_default/params.toml"
         format: "toml"
         fields:
-          - { label: "Color Scheme", name: "colorScheme", widget: "string" }
-          - { label: "Default Appearance", name: "defaultAppearance", widget: "string" }
-          - { label: "Enable Search", name: "enableSearch", widget: "boolean" }
-          - { label: "Enable Code Copy Button", name: "enableCodeCopy", widget: "boolean" }
+          - { label: "Color Scheme", name: "colorScheme", widget: "string", required: false }
+          - { label: "Default Appearance (light/dark)", name: "defaultAppearance", widget: "string", required: false }
+          - { label: "Enable Search", name: "enableSearch", widget: "boolean", required: false }
+          - { label: "Enable Code Copy Button", name: "enableCodeCopy", widget: "boolean", required: false }
 
           - label: "Homepage"
             name: "homepage"
             widget: "object"
             fields:
-              - { label: "Layout", name: "layout", widget: "string" }
-              - { label: "Show Recent Posts", name: "showRecent", widget: "boolean" }
-              - { label: "Recent Post Count", name: "showRecentItems", widget: "number" }
-              - { label: "Show More Link", name: "showMoreLink", widget: "boolean" }
-              - { label: "More Link Destination", name: "showMoreLinkDest", widget: "string" }
-              - { label: "Card View", name: "cardView", widget: "boolean" }
-              - { label: "Blur Background", name: "layoutBackgroundBlur", widget: "boolean" }
+              - { label: "Layout", name: "layout", widget: "string", required: false }
+              - { label: "Show Recent Posts", name: "showRecent", widget: "boolean", required: false }
+              - { label: "Number of Recent Posts", name: "showRecentItems", widget: "number", value_type: "int", required: false }
+              - { label: "Show 'More' Link", name: "showMoreLink", widget: "boolean", required: false }
+              - { label: "More Link Destination", name: "showMoreLinkDest", widget: "string", required: false }
+              - { label: "Card View", name: "cardView", widget: "boolean", required: false }
+              - { label: "Blur Background", name: "layoutBackgroundBlur", widget: "boolean", required: false }
 
           - label: "Article Layout"
             name: "article"
             widget: "object"
             fields:
-              - { label: "Show Date", name: "showDate", widget: "boolean" }
-              - { label: "Show Reading Time", name: "showReadingTime", widget: "boolean" }
-              - { label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean" }
-              - { label: "Show Related Content", name: "showRelatedContent", widget: "boolean" }
-              - { label: "Related Content Limit", name: "relatedContentLimit", widget: "number" }
-              - { label: "Show Taxonomies", name: "showTaxonomies", widget: "boolean" }
-              - { label: "Show Summary", name: "showSummary", widget: "boolean" }
-              - { label: "Show Breadcrumbs", name: "showBreadcrumbs", widget: "boolean" }
-              - { label: "Show Draft Label", name: "showDraftLabel", widget: "boolean" }
+              - { label: "Show Date", name: "showDate", widget: "boolean", required: false }
+              - { label: "Show Reading Time", name: "showReadingTime", widget: "boolean", required: false }
+              - { label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean", required: false }
+              - { label: "Show Related Content", name: "showRelatedContent", widget: "boolean", required: false }
+              - { label: "Related Content Limit", name: "relatedContentLimit", widget: "number", value_type: "int", required: false }
+              - { label: "Show Taxonomies", name: "showTaxonomies", widget: "boolean", required: false }
+              - { label: "Show Summary", name: "showSummary", widget: "boolean", required: false }
+              - { label: "Show Breadcrumbs", name: "showBreadcrumbs", widget: "boolean", required: false }
+              - { label: "Show Draft Label", name: "showDraftLabel", widget: "boolean", required: false }
 
       - label: "Site & Author Info"
         name: "site_author"
         file: "config/_default/config.toml"
         format: "toml"
         fields:
-          - { label: "Base URL", name: "baseURL", widget: "string" }
-          - { label: "Default Language", name: "defaultContentLanguage", widget: "string" }
-          - { label: "Enable Robots.txt", name: "enableRobotsTXT", widget: "boolean" }
-          - { label: "Summary Length", name: "summaryLength", widget: "number" }
+          - { label: "Base URL", name: "baseURL", widget: "string", required: false }
+          - { label: "Default Content Language", name: "defaultContentLanguage", widget: "string", required: false }
+          - { label: "Enable Robots.txt", name: "enableRobotsTXT", widget: "boolean", required: false }
+          - { label: "Summary Length (words)", name: "summaryLength", widget: "number", value_type: "int", required: false }
 
           - label: "Author"
             name: "params.author"
             widget: "object"
             fields:
               - { label: "Name", name: "name", widget: "string" }
-              - { label: "Avatar Image Path", name: "image", widget: "string" }
-              - { label: "Headline", name: "headline", widget: "string" }
-              - { label: "Subtitle", name: "subtitle", widget: "string" }
-              - { label: "Bio", name: "bio", widget: "text" }
+              - { label: "Avatar Image Path", name: "image", widget: "string", required: false }
+              - { label: "Headline", name: "headline", widget: "string", required: false }
+              - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+              - { label: "Bio", name: "bio", widget: "text", required: false }
 
   ###################################################################
-  #  NAVIGATION MENU EDITOR
+  #  NAVIGATION MENUS (menus.toml)
   ###################################################################
   - name: "navigation"
     label: "Navigation Menus"
@@ -289,8 +420,8 @@ collections:
             summary: "{{fields.name}} ({{fields.url || fields.pageRef}})"
             fields:
               - { label: "Name", name: "name", widget: "string" }
-              - { label: "URL", name: "url", widget: "string", required: false }
-              - { label: "Page Ref", name: "pageRef", widget: "string", required: false }
-              - { label: "Identifier", name: "identifier", widget: "string", required: false }
-              - { label: "Parent Identifier", name: "parent", widget: "string", required: false }
-              - { label: "Weight", name: "weight", widget: "number" }
+              - { label: "URL (for external links)", name: "url", widget: "string", required: false }
+              - { label: "Page Ref (for sections like /rti-stories/)", name: "pageRef", widget: "string", required: false }
+              - { label: "Identifier (for parent items)", name: "identifier", widget: "string", required: false }
+              - { label: "Parent Identifier (for sub-menus)", name: "parent", widget: "string", required: false }
+              - { label: "Weight (order)", name: "weight", widget: "number", value_type: "int", required: false }
