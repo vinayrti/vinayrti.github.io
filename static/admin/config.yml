@@ -3,8 +3,6 @@ backend:
   repo: vinayrti/vinayrti.github.io
   branch: main
 
-  auth_type: pkce
-  app_id: Ov23liywpJNLIHzi6KjK
   base_url: https://shiny-scone-76695a.netlify.app
   auth_endpoint: /.netlify/functions/auth
 
