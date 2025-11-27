@@ -6,7 +6,7 @@ description: Representation regarding Mandatory Statewide Implementation of the
   Act, 2005 and Judicial Directions.
 summary: ""
 date: 2025-11-24T10:43:00.000+05:30
-draft: false
+draft: true
 categories:
   - RTI Stories
 author: B. Vinay Reddy
