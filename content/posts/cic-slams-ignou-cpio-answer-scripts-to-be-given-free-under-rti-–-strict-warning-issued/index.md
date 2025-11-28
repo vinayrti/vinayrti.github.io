@@ -27,11 +27,11 @@ tags:
   - Supreme Court Judgments
 author: B. Vinay Reddy
 cover:
-  image: "ignou.png"
+  image: "ignou.webp"
   alt: "CIC Order on IGNOU Answer Scripts under RTI"
   caption: "Central Information Commission – 28 November 2025 Order"
 images:
-  - "ignou.png"
+  - "ignou.webp"
 
 seo:
   title: CIC Orders IGNOU to Provide Answer Scripts Free Under RTI | Strict
