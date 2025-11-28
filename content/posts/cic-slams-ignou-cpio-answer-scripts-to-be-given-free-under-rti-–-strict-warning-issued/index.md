@@ -27,7 +27,7 @@ tags:
   - Supreme Court Judgments
 author: B. Vinay Reddy
 cover:
-  image: ""
+  image: unnamed.jpg
   alt: CIC Order on IGNOU Answer Scripts under RTI
   caption: Central Information Commission – 28 November 2025 Order
 thumbnail: unnamed.jpg
@@ -44,19 +44,21 @@ keywords:
     Evaluation  Supreme Court RTI judgments
 noIndex: false
 ---
+
 <div style="
-  padding:12px;
+  padding:16px;
   border-radius:8px;
   border:1px solid #e0e0e0;
-  background:#f9f9f9;
+  background:#ffffff;
   margin:15px 0;
+  color:#000000;
 ">
-📁 <strong>Full CIC Order (PDF)</strong><br><br>
+📄 <strong style="color:#000000;">Full CIC Order (PDF)</strong><br><br>
 <a href="https://bvinayreddy.com/uploads/bpranayreddy.pdf" target="_blank" style="
   display:inline-block;
-  padding:8px 14px;
+  padding:10px 16px;
   background:#2563eb;
-  color:#fff;
+  color:#ffffff !important;
   border-radius:6px;
   text-decoration:none;
   font-weight:600;
@@ -140,18 +142,19 @@ It also sends a clear reminder to all universities that **statutory rights under
 ## 📁 Download: Full CIC Order (PDF)
 
 <div style="
-  padding:12px;
+  padding:16px;
   border-radius:8px;
   border:1px solid #e0e0e0;
-  background:#f9f9f9;
+  background:#ffffff;
   margin:15px 0;
+  color:#000000;
 ">
-📄 <strong>Full CIC Order (PDF)</strong><br><br>
+📄 <strong style="color:#000000;">Full CIC Order (PDF)</strong><br><br>
 <a href="https://bvinayreddy.com/uploads/bpranayreddy.pdf" target="_blank" style="
   display:inline-block;
-  padding:8px 14px;
+  padding:10px 16px;
   background:#2563eb;
-  color:#fff;
+  color:#ffffff !important;
   border-radius:6px;
   text-decoration:none;
   font-weight:600;
@@ -159,6 +162,7 @@ It also sends a clear reminder to all universities that **statutory rights under
 Click here to download
 </a>
 </div>
+
 
 ---
 
