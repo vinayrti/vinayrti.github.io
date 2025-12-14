@@ -38,29 +38,37 @@ noIndex: false
 ### **INFORMATION COMMISSIONS**
 
 **Central Information Commission (CIC)**
+
 [https://cic.gov.in/citizen-service](https://cic.gov.in/citizen-service)
 
 **Telangana Information Commission – Decisions**
+
 [https://tgic.telangana.gov.in/tgic-decisions.do](https://tgic.telangana.gov.in/tgic-decisions.do)
 
 **Telangana SIC – Second Appeal Online**
+
 [https://tgic.telangana.gov.in/second-appeal-online.do](https://tgic.telangana.gov.in/second-appeal-online.do)
 
 **Telangana SIC – Complaint Online**
+
 [https://tgic.telangana.gov.in/complaint-online.do](https://tgic.telangana.gov.in/complaint-online.do)
 
 **Andhra Pradesh SIC – Live Hearing**
+
 [https://sic.ap.gov.in/sic_fe/Live_hearing.php](https://sic.ap.gov.in/sic_fe/Live_hearing.php)
 
 ### **SUPREME COURT & HIGH COURTS RTI**
 
 **Supreme Court of India RTI**
+
 [https://rti.sci.gov.in/](https://rti.sci.gov.in/)
 
 **Telangana High Court RTI**
+
 [https://rti.tshc.gov.in/index.action](https://rti.tshc.gov.in/index.action)
 
 **District Courts RTI – Telangana**
+
 [https://dcrti.tshc.gov.in/](https://dcrti.tshc.gov.in/)
 
 ---
@@ -113,6 +121,7 @@ noIndex: false
 ## **👮 POLICE & FIR SERVICES**
 
 **Telangana Police – Citizen Services**
+
 [https://www.tspolice.gov.in/jsp/citizenLogin?method=viewLoginForm](https://www.tspolice.gov.in/jsp/citizenLogin?method=viewLoginForm)
 
 ---
