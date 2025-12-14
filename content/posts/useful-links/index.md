@@ -3,6 +3,8 @@ title: Useful Links
 date: 2025-12-14T10:13:00.000+05:30
 draft: false
 author: B. Vinay Reddy
+cover:
+  image: 1.jpg
 relative: false
 noIndex: false
 ---
