@@ -6,6 +6,8 @@ author: B. Vinay Reddy
 relative: false
 noIndex: false
 ---
+
+
 ## RTI Portals (Central & State)
 
 * **RTI Online (Central Government)** — [https://rtionline.gov.in/login.php](https://rtionline.gov.in/login.php)
@@ -35,6 +37,7 @@ noIndex: false
 * **Moneylife TV (YouTube Playlists)** — [https://www.youtube.com/@MoneylifeTV/playlists](https://www.youtube.com/@MoneylifeTV/playlists)
 * **Moneylife RTI Centre – Events** — [https://www.moneylife.in/rticentre/events.html](https://www.moneylife.in/rticentre/events.html)
 * **DoPT – RTI Official Website** — [https://rti.dopt.gov.in/index.html](https://rti.dopt.gov.in/index.html)
+* **Arvind P. Datar – Senior Advocate (YouTube)** — [https://www.youtube.com/@arvindp.datarsenioradvocatesup](https://www.youtube.com/@arvindp.datarsenioradvocatesup)
 
 ---
 
@@ -46,9 +49,30 @@ noIndex: false
 
 ---
 
-## Video Resources on RTI
+## Grievance Redressal Portals
+
+* **PG Portal (CPGRAMS – Central Government)** — [https://pgportal.gov.in/Signin](https://pgportal.gov.in/Signin)
+* **Telangana Praja Vani (CPGRAMS – Telangana)** — [https://cpgrams.ts.nic.in/index.php](https://cpgrams.ts.nic.in/index.php)
+
+---
+
+## Consumer Protection & E-Courts
+
+* **e-Daakhil / e-Jagriti (Consumer Courts)** — [https://e-jagriti.gov.in/](https://e-jagriti.gov.in/)
+* **Consumer Case Status / Orders / Judgments** — [https://e-jagriti.gov.in/case-history-case-status](https://e-jagriti.gov.in/case-history-case-status)
+* **Consumer Protection Act, 2019 (Learning Resource)** — [https://consumereducationhub.wixsite.com/website1](https://consumereducationhub.wixsite.com/website1)
+
+---
+
+## Video Resources
 
 * **RTI Awareness Video (YouTube)** — [https://youtu.be/i2t41TPaR2Y?si=7LjPwcLTrwtwdgz0](https://youtu.be/i2t41TPaR2Y?si=7LjPwcLTrwtwdgz0)
 * **RTI Detailed Playlist (YouTube)** — [https://youtube.com/playlist?list=PL7LghOkTq84RMJzB54VkmDu3AWrHQVEpk&si=dife8cuWF8xVesCR](https://youtube.com/playlist?list=PL7LghOkTq84RMJzB54VkmDu3AWrHQVEpk&si=dife8cuWF8xVesCR)
+
+---
+
+## Insurance & Financial Literacy
+
+* **Ditto – Free Insurance Masterclasses** — [https://events.joinditto.in/](https://events.joinditto.in/)
 
 
