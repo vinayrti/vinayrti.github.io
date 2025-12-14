@@ -5,6 +5,7 @@ draft: false
 author: B. Vinay Reddy
 cover:
   image: 1.jpg
+thumbnail: 1.jpg
 relative: false
 noIndex: false
 ---
