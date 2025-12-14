@@ -4,10 +4,14 @@ date: 2025-12-14T10:13:00.000+05:30
 draft: false
 author: B. Vinay Reddy
 cover:
-  image: 1.jpg
-thumbnail: 1.jpg
+  image: gemini_generated_image_wizefewizefewize.png
+thumbnail: gemini_generated_image_wizefewizefewize.png
 relative: false
 noIndex: false
+---
+
+
+
 ---
 
 # Useful Legal, RTI & Citizen Service Links (India)
@@ -25,9 +29,10 @@ noIndex: false
 * [https://rtionline.gov.in/login.php](https://rtionline.gov.in/login.php)
 * [https://rti.dopt.gov.in/index.html](https://rti.dopt.gov.in/index.html)
 
-### State RTI (Telangana)
+### State RTI – Telangana
 
 * [https://rti.telangana.gov.in/](https://rti.telangana.gov.in/)
+
 
 ### Information Commissions
 
@@ -37,11 +42,23 @@ noIndex: false
 * [https://tgic.telangana.gov.in/complaint-online.do](https://tgic.telangana.gov.in/complaint-online.do)
 * [https://sic.ap.gov.in/sic_fe/Live_hearing.php](https://sic.ap.gov.in/sic_fe/Live_hearing.php)
 
-### Supreme Court & High Courts – RTI
+### Supreme Court & High Courts RTI
 
 * [https://rti.sci.gov.in/](https://rti.sci.gov.in/)
 * [https://rti.tshc.gov.in/index.action](https://rti.tshc.gov.in/index.action)
 * [https://dcrti.tshc.gov.in/](https://dcrti.tshc.gov.in/)
+
+---
+
+## 🧑‍⚖️ HUMAN RIGHTS COMMISSIONS
+
+### National Human Rights Commission
+
+* [https://nhrc.nic.in/](https://nhrc.nic.in/)
+
+### Human Rights Complaint Status
+
+* [https://www.hrcnet.nic.in/HRCNet/public/SearchComplaint.aspx](https://www.hrcnet.nic.in/HRCNet/public/SearchComplaint.aspx)
 
 ---
 
@@ -85,8 +102,11 @@ noIndex: false
 ### Consumer Case Filing – Video Guides
 
 * [https://www.youtube.com/watch?v=IhqjiOU_tr8](https://www.youtube.com/watch?v=IhqjiOU_tr8)
+* [https://www.youtube.com/watch?v=IhqjiOU_tr8](https://www.youtube.com/watch?v=IhqjiOU_tr8)
 * [https://youtu.be/-sgFsmTVEKo](https://youtu.be/-sgFsmTVEKo)
+* [https://youtu.be/-sgFsmTVEKo?si=N313v9ZfUDLF6DE1](https://youtu.be/-sgFsmTVEKo?si=N313v9ZfUDLF6DE1)
 * [https://youtu.be/nHjL8xIR4Pw](https://youtu.be/nHjL8xIR4Pw)
+* [https://youtu.be/nHjL8xIR4Pw?si=vqnK4O0jo9W2N0Zv](https://youtu.be/nHjL8xIR4Pw?si=vqnK4O0jo9W2N0Zv)
 
 ---
 
@@ -98,7 +118,7 @@ noIndex: false
 
 ---
 
-## 📚 RTI KNOWLEDGE & TRAINING
+## 📚 RTI KNOWLEDGE & LEARNING
 
 * [https://satyamevajayate.info/](https://satyamevajayate.info/)
 * [https://www.moneylife.in/rticentre/events.html](https://www.moneylife.in/rticentre/events.html)
@@ -107,7 +127,7 @@ noIndex: false
 
 ---
 
-## 📜 ACTS, RULES & BARE LAWS
+## 📜 BARE ACTS, RULES & STATUTES
 
 ### RTI & Governance
 
@@ -139,7 +159,7 @@ noIndex: false
 
 ---
 
-## 📝 LEGAL DRAFTING, FORMATS & UTILITIES
+## 📝 LEGAL DRAFTING, FORMATS & TOOLS
 
 * [https://www.icsi.edu/knowledgebase/deedsdocuments/](https://www.icsi.edu/knowledgebase/deedsdocuments/)
 * [https://aktiwari.com/legal-drafts-legal-formats/](https://aktiwari.com/legal-drafts-legal-formats/)
@@ -148,17 +168,17 @@ noIndex: false
 
 ---
 
-## 🧑‍🏫 LEGAL EDUCATION, COURSES & EVENTS
+## 🧑‍🏫 LEGAL EDUCATION & COURSES
 
+* [https://www.lawctopuslawschool.com/](https://www.lawctopuslawschool.com/)
+* [https://www.lawskills.in/AcademyCourse/37/fundamentals-challenges-drafting-will-india](https://www.lawskills.in/AcademyCourse/37/fundamentals-challenges-drafting-will-india)
+* [https://www.manupatracademy.com/home/manupatra-certified-legal-research](https://www.manupatracademy.com/home/manupatra-certified-legal-research)
 * [https://shrayanshsingh.com/books](https://shrayanshsingh.com/books)
 * [https://shrayanshsingh.com/events](https://shrayanshsingh.com/events)
-* [https://www.lawctopuslawschool.com/](https://www.lawctopuslawschool.com/)
-* [https://www.manupatracademy.com/home/manupatra-certified-legal-research](https://www.manupatracademy.com/home/manupatra-certified-legal-research)
-* [https://www.lawskills.in/AcademyCourse/37/fundamentals-challenges-drafting-will-india](https://www.lawskills.in/AcademyCourse/37/fundamentals-challenges-drafting-will-india)
 
 ---
 
-## 🏛️ LEGAL AID, PRO BONO & CIVIC GROUPS
+## 🏛️ LEGAL AID & PRO BONO SERVICES
 
 * [https://nalsa.gov.in/](https://nalsa.gov.in/)
 * [https://www.tele-law.in/](https://www.tele-law.in/)
@@ -177,7 +197,7 @@ noIndex: false
 
 ---
 
-## 🎥 YOUTUBE – LEGAL LEARNING
+## 🎥 YOUTUBE – LEGAL LEARNING & PRACTICE
 
 ### Channels
 
@@ -185,19 +205,30 @@ noIndex: false
 * [https://www.youtube.com/@YGLAW/videos](https://www.youtube.com/@YGLAW/videos)
 * [https://www.youtube.com/@1516aptg/videos](https://www.youtube.com/@1516aptg/videos)
 
-### Drafting, Research & Practice
+### MS Word, Drafting & Research
 
 * [https://www.youtube.com/watch?v=SzFmodPn_xU](https://www.youtube.com/watch?v=SzFmodPn_xU)
-* [https://www.youtube.com/watch?v=D30LGAA6dd4](https://www.youtube.com/watch?v=D30LGAA6dd4)
-* [https://www.youtube.com/watch?v=OaZsFuz_7-0](https://www.youtube.com/watch?v=OaZsFuz_7-0)
-* [https://www.youtube.com/watch?v=EvJUkgE1698](https://www.youtube.com/watch?v=EvJUkgE1698)
+* [https://www.youtube.com/watch?v=SzFmodPn_xU](https://www.youtube.com/watch?v=SzFmodPn_xU)
 * [https://www.youtube.com/watch?v=D4zHOFvkwAo](https://www.youtube.com/watch?v=D4zHOFvkwAo)
 * [https://www.youtube.com/watch?v=zg4P1I7iuVg](https://www.youtube.com/watch?v=zg4P1I7iuVg)
 * [https://www.youtube.com/watch?v=0v2DPsyXOzA](https://www.youtube.com/watch?v=0v2DPsyXOzA)
 
+### Playlists
+
+* [https://youtube.com/playlist?list=PL7LghOkTq84RMJzB54VkmDu3AWrHQVEpk](https://youtube.com/playlist?list=PL7LghOkTq84RMJzB54VkmDu3AWrHQVEpk)
+* [https://www.youtube.com/watch?v=D30LGAA6dd4&list=PL-1DBVyVi7EbbEEjdR7ObWr2B4GfuyY1P](https://www.youtube.com/watch?v=D30LGAA6dd4&list=PL-1DBVyVi7EbbEEjdR7ObWr2B4GfuyY1P)
+* [https://www.youtube.com/watch?v=OaZsFuz_7-0&list=PL-1DBVyVi7EZRFmOv-NEHRq8hvNAZlCcM](https://www.youtube.com/watch?v=OaZsFuz_7-0&list=PL-1DBVyVi7EZRFmOv-NEHRq8hvNAZlCcM)
+* [https://www.youtube.com/watch?v=EvJUkgE1698&list=PL-1DBVyVi7EZ0n5fh6ydwp1JYrCYtCu3x](https://www.youtube.com/watch?v=EvJUkgE1698&list=PL-1DBVyVi7EZ0n5fh6ydwp1JYrCYtCu3x)
+
 ---
 
-## 🧾 INSURANCE & FINANCIAL COMPLAINTS
+## 🧑‍⚖️ LEGAL Q&A / EXPERT FORUMS
+
+* [https://www.expertspanel.in/index.php?qa=questions](https://www.expertspanel.in/index.php?qa=questions)
+
+---
+
+## 🧾 INSURANCE & FINANCIAL GRIEVANCES
 
 * [https://bimabharosa.irdai.gov.in/Home/Home](https://bimabharosa.irdai.gov.in/Home/Home)
 * [https://cioins.co.in/Complaint/Online](https://cioins.co.in/Complaint/Online)
@@ -224,25 +255,25 @@ noIndex: false
 * [https://www.dragonlegal.in/](https://www.dragonlegal.in/)
 * [https://www.nuance.com/dragon/business-solutions/dragon-legal.html](https://www.nuance.com/dragon/business-solutions/dragon-legal.html)
 
-### Learning & Demos
+### LiquidText Learning
 
 * [https://www.youtube.com/playlist?list=PL0N-Vm5_h46vG_NMZjgGuL7NZdBz6d8vr](https://www.youtube.com/playlist?list=PL0N-Vm5_h46vG_NMZjgGuL7NZdBz6d8vr)
 * [https://www.youtube.com/watch?v=f0SmZWC7nfc](https://www.youtube.com/watch?v=f0SmZWC7nfc)
 
 ---
 
-## 📖 BOOKS, TALKS & REVIEWS
+## 📖 BOOKS, REVIEWS & TALKS
 
-* [https://online.ifheindia.org/An-evening-with-Dr-Madabhushi-Sridhar.html](https://online.ifheindia.org/An-evening-with-Dr-Madabhushi-Sridhar.html)
-* [https://www.asialawhouse.com/bookdetails.php?id=6509](https://www.asialawhouse.com/bookdetails.php?id=6509)
 * [https://www.youtube.com/watch?v=-Zy4dPwrBXQ](https://www.youtube.com/watch?v=-Zy4dPwrBXQ)
 * [https://www.youtube.com/watch?v=oETSVZqrtk0](https://www.youtube.com/watch?v=oETSVZqrtk0)
+* [https://online.ifheindia.org/An-evening-with-Dr-Madabhushi-Sridhar.html](https://online.ifheindia.org/An-evening-with-Dr-Madabhushi-Sridhar.html)
+* [https://www.asialawhouse.com/bookdetails.php?id=6509](https://www.asialawhouse.com/bookdetails.php?id=6509)
 
 ---
 
 ## 🏛️ BAR ASSOCIATIONS & EXAMS
 
-* [https://www.allindiabarexamination.com/](https://www.allindiabarexamination.com/)
 * [https://thcaa.co.in/MembershipDetails.aspx](https://thcaa.co.in/MembershipDetails.aspx)
+* [https://www.allindiabarexamination.com/](https://www.allindiabarexamination.com/)
 
 ---
