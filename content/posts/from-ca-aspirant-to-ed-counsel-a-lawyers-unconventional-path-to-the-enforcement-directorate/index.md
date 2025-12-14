@@ -7,6 +7,16 @@ author: B. Vinay Reddy
 relative: false
 noIndex: false
 ---
+### 
+
+
+Video Link: http://www.youtube.com/watch?v=lYyZEKgVOAs
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lYyZEKgVOAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>]
+
+### 
+
+
 ### I. The Lawyer's Journey
 
 * Education: Did his law from Symbiosis Law School, Pune.
@@ -39,7 +49,3 @@ noIndex: false
 * Confidence: Don't let self-doubt stop you; use it to motivate continuous learning.
 * Patience: Initial experiences in court can be daunting, but with practice and patience, arguing becomes normal.
 * Fraternity Support: The legal community is generally supportive and helpful to young lawyers.
-
-Video Link: [http://www.youtube.com/watch?v=lYyZEKgVOAs
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lYyZEKgVOAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>](http://www.youtube.com/watch?v=lYyZEKgVOAs)
