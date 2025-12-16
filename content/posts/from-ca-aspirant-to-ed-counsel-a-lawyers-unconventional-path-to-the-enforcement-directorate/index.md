@@ -4,6 +4,11 @@ title: "From CA Aspirant to ED Counsel: A Lawyer's Unconventional Path to the
 date: 2025-12-14T19:48:00.000+05:30
 draft: false
 author: B. Vinay Reddy
+cover:
+  image: gemini_generated_image_ig6kllig6kllig6k.png
+thumbnail: gemini_generated_image_ig6kllig6kllig6k.png
+images:
+  - gemini_generated_image_ig6kllig6kllig6k.png
 relative: false
 noIndex: false
 ---
