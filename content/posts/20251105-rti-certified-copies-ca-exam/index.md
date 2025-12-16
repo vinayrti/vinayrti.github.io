@@ -1,23 +1,45 @@
 ---
-title: "How CA Students Can Get Their Answer Sheets PDF for FREE under RTI Act (Step-by-Step Guide)"
+title: How CA Students Can Get Their Answer Sheets PDF for FREE under RTI Act
+  (Step-by-Step Guide)
+description: Learn how to obtain certified copies of your ICAI answer sheets for
+  FREE under the RTI Act. A complete, easy-to-follow guide for CA students to
+  download PDF copies directly from the RTI Online Portal.
+summary: CA students can now get certified copies of their evaluated answer
+  sheets free of cost under the RTI Act using the official RTI Online Portal.
+  This detailed guide explains the entire process step by step with examples.
 date: 2025-11-05
-description: "Learn how to obtain certified copies of your ICAI answer sheets for FREE under the RTI Act. A complete, easy-to-follow guide for CA students to download PDF copies directly from the RTI Online Portal."
-summary: "CA students can now get certified copies of their evaluated answer sheets free of cost under the RTI Act using the official RTI Online Portal. This detailed guide explains the entire process step by step with examples."
-categories: ["RTI Stories"]
-tags: ["ICAI", "RTI Act", "CA Students", "Certified Copies", "Transparency", "Education"]
-author: "B. Vinay Reddy"
-cover:
-  image: "rti-certified-copies-ca-exam-feature.webp"
-  alt: "How CA Students Can Get Their Answer Sheets PDF for FREE under RTI Act"
-  caption: "CA students can now obtain certified copies of answer sheets free of cost as PDF under RTI Act."
-relative: false
-images:
-  - "rti-certified-copies-ca-exam-feature.webp"
-seo:
-  title: "Get CA Exam Answer Sheets for FREE | Step-by-Step RTI Guide for ICAI Students"
-  description: "Learn how to obtain certified copies of your ICAI answer sheets for FREE under the RTI Act. A complete, easy-to-follow guide for CA students to download PDF copies directly from the RTI Online Portal."
-keywords: ["CA RTI answer sheets", "ICAI RTI guide", "CA exam answer sheet copy", "RTI for CA students", "free ICAI answer sheet", "RTI online portal CA"]
 draft: false
+categories:
+  - RTI Stories
+tags:
+  - ICAI
+  - RTI Act
+  - CA Students
+  - Certified Copies
+  - Transparency
+  - Education
+author: B. Vinay Reddy
+cover:
+  image: featured.png
+  alt: How CA Students Can Get Their Answer Sheets PDF for FREE under RTI Act
+  caption: CA students can now obtain certified copies of answer sheets free of
+    cost as PDF under RTI Act.
+thumbnail: featured.png
+images:
+  - rti-certified-copies-ca-exam-feature.webp
+relative: false
+seo:
+  title: Get CA Exam Answer Sheets for FREE | Step-by-Step RTI Guide for ICAI Students
+  description: Learn how to obtain certified copies of your ICAI answer sheets for
+    FREE under the RTI Act. A complete, easy-to-follow guide for CA students to
+    download PDF copies directly from the RTI Online Portal.
+keywords:
+  - CA RTI answer sheets
+  - ICAI RTI guide
+  - CA exam answer sheet copy
+  - RTI for CA students
+  - free ICAI answer sheet
+  - RTI online portal CA
 ---
 
 ## How CA Students Can Get Their Answer Sheets PDF for FREE under RTI Act (Step-by-Step Guide)
