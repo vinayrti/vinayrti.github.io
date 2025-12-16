@@ -1,24 +1,44 @@
 ---
-title: "Telangana Information Commission Enables Online Filing for Second Appeals and Complaints After Representation"
-date: 2025-11-19
-description: "Documentation of how the Telangana Information Commission activated online filing for Second Appeals and Complaints after a citizen representation. Includes handbook extract, representation, replies, and portal screenshots."
-summary: "TGIC activates online filing for Second Appeals and Complaints after a formal representation. This article documents the complete process with screenshots."
-categories: ["RTI Stories"]
-tags: ["TGIC", "RTI", "Telangana", "Second Appeal", "Digital Governance", "Transparency"]
-author: "B. Vinay Reddy"
-cover:
-  image: "featured.webp"
-  alt: "TGIC Online Filing Social Preview"
-  caption: "Telangana Information Commission enables online filing for Second Appeals and Complaints."
-relative: false
-
-
-seo:
-  title: "TGIC Activates Online Filing for Second Appeals & Complaints | RTI Telangana Update"
-  description: "How TGIC operationalised online filing for Second Appeals and Complaints following a detailed citizen representation."
-keywords: ["TGIC online filing", "Telangana RTI", "Second Appeal TGIC", "RTI Complaint Online", "TGIC portal update", "RTI Telangana"]
-showTableOfContents: true
 draft: false
+showTableOfContents: true
+title: Telangana Information Commission Enables Online Filing for Second Appeals
+  and Complaints After Representation
+description: Documentation of how the Telangana Information Commission activated
+  online filing for Second Appeals and Complaints after a citizen
+  representation. Includes handbook extract, representation, replies, and portal
+  screenshots.
+summary: TGIC activates online filing for Second Appeals and Complaints after a
+  formal representation. This article documents the complete process with
+  screenshots.
+date: 2025-11-19
+categories:
+  - RTI Stories
+tags:
+  - TGIC
+  - RTI
+  - Telangana
+  - Second Appeal
+  - Digital Governance
+  - Transparency
+author: B. Vinay Reddy
+cover:
+  image: featured.png
+  alt: TGIC Online Filing Social Preview
+  caption: Telangana Information Commission enables online filing for Second
+    Appeals and Complaints.
+relative: false
+seo:
+  title: TGIC Activates Online Filing for Second Appeals & Complaints | RTI
+    Telangana Update
+  description: How TGIC operationalised online filing for Second Appeals and
+    Complaints following a detailed citizen representation.
+keywords:
+  - TGIC online filing
+  - Telangana RTI
+  - Second Appeal TGIC
+  - RTI Complaint Online
+  - TGIC portal update
+  - RTI Telangana
 ---
 In a welcome move towards digital transparency, the Telangana State Information Commission (TGIC) has now activated the facility for online filing of Second Appeals and Complaints on its official website — https://tgic.telangana.gov.in.
 
