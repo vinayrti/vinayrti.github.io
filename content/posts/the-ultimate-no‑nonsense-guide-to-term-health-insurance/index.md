@@ -3,6 +3,9 @@ title: The Ultimate, No‑Nonsense Guide to Term & Health Insurance
 date: 2025-12-14T15:24:00.000+05:30
 draft: false
 author: B. Vinay Reddy
+cover:
+  image: featured.png
+thumbnail: featured.png
 relative: false
 noIndex: false
 ---
