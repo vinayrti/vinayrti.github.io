@@ -26,8 +26,7 @@ smartTOCHideUnfocusedChildren = false
 
 [header]
   layout = "fixed"
-  logo = "logo.png"
-  logoDark = "logo_dark.png"
+  showTitle = true
 
 [footer]
   showCopyright = true
