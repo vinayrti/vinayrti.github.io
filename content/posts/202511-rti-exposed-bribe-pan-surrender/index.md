@@ -1,14 +1,25 @@
 ---
-title: "How an RTI Exposed a Bribe Demand in a PAN Surrender Case"
-summary: "A citizen’s determination and a simple RTI application exposed corruption in a PAN card surrender case — showing how transparency can triumph over bribery."
-description: "This real-life RTI story shows how a citizen used the Right to Information Act to expose a ₹15,000 bribe demand by an Income Tax officer during a PAN surrender request."
+title: How an RTI Exposed a Bribe Demand in a PAN Surrender Case
+description: This real-life RTI story shows how a citizen used the Right to
+  Information Act to expose a ₹15,000 bribe demand by an Income Tax officer
+  during a PAN surrender request.
+summary: A citizen’s determination and a simple RTI application exposed
+  corruption in a PAN card surrender case — showing how transparency can triumph
+  over bribery.
 date: 2025-11-03
 draft: false
-categories: ["RTI Stories"]
-tags: ["RTI", "Corruption", "PAN", "Transparency", "Accountability"]
+categories:
+  - RTI Stories
+tags:
+  - RTI
+  - Corruption
+  - PAN
+  - Transparency
+  - Accountability
 cover:
-  image: "featured.webp"
-  alt: "Citizen using RTI to expose corruption in PAN surrender case"
+  image: featured.png
+  alt: Citizen using RTI to expose corruption in PAN surrender case
+thumbnail: featured.png
 ---
 
 ## A Battle Against Corruption: How a Citizen Used RTI to Expose a Bribe Demand
