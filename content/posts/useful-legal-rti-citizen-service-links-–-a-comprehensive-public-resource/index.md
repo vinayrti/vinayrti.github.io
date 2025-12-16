@@ -5,8 +5,8 @@ date: 2025-12-14T14:42:00.000+05:30
 draft: false
 author: B. Vinay Reddy
 cover:
-  image: gemini_generated_image_wizefewizefewize.png
-thumbnail: gemini_generated_image_wizefewizefewize.png
+  image: featured.png
+thumbnail: featured.png
 relative: false
 noIndex: false
 ---
