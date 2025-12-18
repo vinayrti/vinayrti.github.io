@@ -29,6 +29,7 @@ noIndex: false
 ### **CENTRAL RTI**
 
 [https://rtionline.gov.in/login.php](https://rtionline.gov.in/login.php)
+
 [https://rti.dopt.gov.in/index.html](https://rti.dopt.gov.in/index.html)
 
 ### **STATE RTI – TELANGANA**
