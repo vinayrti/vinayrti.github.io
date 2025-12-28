@@ -198,16 +198,13 @@ body.page-terms-of-use .page-header h1 {
 
 /* === Fix Author Headline Wrapping on Mobile === */
 .author-headline {
-  white-space: nowrap;           /* Prevents the tagline from breaking */
-  text-align: center;            /* Ensures centered alignment */
+  text-align: center;
+  font-size: clamp(0.95rem, 4vw, 1.35rem);
+  line-height: 1.4;
+  max-width: 92%;
+  margin: 0 auto;
 }
 
-@media (max-width: 600px) {
-  .author-headline {
-    font-size: 0.9rem !important;  /* Slightly smaller font on mobile */
-    line-height: 1.2 !important;
-  }
-}
 /* Hide "Edit content" link from all posts */
 a[href*="edit"], 
 a[href*="github.com"][href*="edit"],
