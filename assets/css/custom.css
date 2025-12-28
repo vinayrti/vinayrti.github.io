@@ -244,3 +244,17 @@ a[href*="edit"],
 .language-switcher, .i18n-switcher, .navbar__languages {
     display: none !important;
 }
+
+/* === FORCE FIX: Author tagline responsive text (Blowfish) === */
+.author p,
+.author-subtitle,
+.author .text-neutral-500,
+.author .dark\:text-neutral-400 {
+  font-size: clamp(0.95rem, 4vw, 1.35rem) !important;
+  line-height: 1.4 !important;
+  text-align: center;
+  max-width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: normal !important;
+}
