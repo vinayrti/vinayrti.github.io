@@ -185,8 +185,8 @@ noIndex: false
 
 **Right to Information and Good Governance** 
 By Prof. Sairam Bhat National Law School of India University
-[https://youtube.com/playlist?list=PLyqSpQzTE6M-QVCDaHh4VvmiK8Nq53j-b&si=ijdRd9t1LASPTwkq]
-(https://youtube.com/playlist?list=PLyqSpQzTE6M-QVCDaHh4VvmiK8Nq53j-b&si=ijdRd9t1LASPTwkq)
+
+https://youtube.com/playlist?list=PLyqSpQzTE6M-QVCDaHh4VvmiK8Nq53j-b&si=ijdRd9t1LASPTwkq
 
 ---
 
