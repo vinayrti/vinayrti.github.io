@@ -1,7 +1,7 @@
 ---
-title: Test
+title: Test Typing Writer
 date: 2025-12-30T14:52:00.000+05:30
-draft: false
+draft: true
 author: B. Vinay Reddy
 relative: false
 noIndex: false
