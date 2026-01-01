@@ -4,11 +4,11 @@ date: 2026-01-01T19:02:00.000+05:30
 draft: false
 author: B. Vinay Reddy
 cover:
-  image: 14.jpg
-thumbnail: 14.jpg
+  image: featured.png
+thumbnail: featured.png
 relative: false
 seo:
-  image: 14.jpg
+  image: featured.png
 noIndex: false
 ---
 *When citizens wait endlessly for information that legally belongs to them, frustration slowly turns into silence. But sometimes, accountability does arrive — quietly, firmly, and with real consequences.*
