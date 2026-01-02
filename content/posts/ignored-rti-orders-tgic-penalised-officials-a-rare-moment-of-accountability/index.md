@@ -1,21 +1,20 @@
 ---
 title: "Ignored RTI Orders, TGIC Penalised Officials: A Rare Moment of Accountability"
+summary: In a rare show of enforcement, the Telangana Information Commission
+  imposed monetary penalties on public officials for ignoring RTI appellate
+  orders for years, reaffirming that delay and silence do not erase
+  accountability.
 date: 2026-01-01T19:02:00+05:30
 draft: false
-author: B. Vinay Reddy
-
-summary: "In a rare show of enforcement, the Telangana Information Commission imposed monetary penalties on public officials for ignoring RTI appellate orders for years, reaffirming that delay and silence do not erase accountability."
-
+categories:
+  - RTI Stories
 tags:
   - RTI
   - Telangana
   - Transparency
   - Accountability
   - Information Commission
-
-categories:
-  - RTI Stories
-
+author: B. Vinay Reddy
 cover:
   image: featured.png
 thumbnail: featured.png
