@@ -79,7 +79,12 @@ The RTI reply clearly shows:
 
 ## Extract of RTI Reply (For Reference)
 
-*(Image uploaded below)*
+
+<div align="center">
+
+![RTI reply showing marks added under Regulation 39(2)](Grace marks.jpg)
+
+</div>
 
 ---
 
