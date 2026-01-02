@@ -17,8 +17,6 @@ mainSections = ["posts"]#, "suggestions"]
 disableImageOptimization = false
 disableTextInHeader = false
 
-defaultFeaturedImage = "/img/background.jpg"
-defaultBackgroundImage = "/img/background.jpg"
 
 highlightCurrentMenuArea = true
 smartTOC = true
@@ -30,7 +28,7 @@ smartTOCHideUnfocusedChildren = false
 
 [footer]
   showCopyright = true
-  showThemeAttribution = true
+  showThemeAttribution = false
   showAppearanceSwitcher = true
   showScrollToTop = true
 
@@ -57,9 +55,7 @@ smartTOCHideUnfocusedChildren = false
   layoutBackgroundBlur = true
   showBreadcrumbs = true
   showDraftLabel = true
-  showEdit = true
-  editURL = "https://github.com/nunocoracao/n9o.xyz/tree/main/content"
-  editAppendPath = true
+  showEdit = false
   seriesOpened = true
   showHeadingAnchors = true
   showPagination = true
@@ -68,8 +64,8 @@ smartTOCHideUnfocusedChildren = false
   showTableOfContents = true
   showRelatedContent = true
   relatedContentLimit = 6
-  showTaxonomies = true 
-  showAuthorsBadges = true
+  showTaxonomies = false 
+  showAuthorsBadges = false
   showWordCount = false
   showSummary = true
   sharingLinks = [ "linkedin", "twitter", "whatsapp", "telegram", "pinterest", "reddit", "facebook", "email"]
@@ -121,12 +117,6 @@ smartTOCHideUnfocusedChildren = false
   #appId = "1:722874298820:web:b5c0e707586eba68c43491"
   #measurementId = "G-H8CSEYZFG4"
 
-[buymeacoffee]
-  identifier = "nunocoracao"
-  globalWidget = false
-  globalWidgetMessage = ""
-  globalWidgetColor = "#FFDD00"
-  globalWidgetPosition = "Right"
 
 [fathomAnalytics]
   # site = "ABC12345"
