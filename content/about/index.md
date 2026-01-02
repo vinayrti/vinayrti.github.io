@@ -1,7 +1,9 @@
 ---
 title: "About"
-date: 2022-06-13T20:55:37+01:00
 draft: false
+description: "About B. Vinay Reddy — RTI Advocacy and legal awareness writer focused on transparency, financial literacy, and civic empowerment."
+
+comments: false
 
 showDate : false
 showDateOnlyInArticle : false
@@ -19,13 +21,14 @@ showViews: false
 showLikes: false
 showAuthor: true
 layoutBackgroundHeaderSpace: false
+
 ---
 
 ## 🙋‍♂️ About B. Vinay Reddy  
 **Empowering Citizens Through Knowledge**
 
 Hello and welcome! I am **B. Vinay Reddy**, a postgraduate in commerce from Hyderabad, Telangana.  
-This platform reflects my voluntary work in empowering fellow citizens, students, and professionals through **transparency, financial literacy, and legal awareness**.  
+This platform reflects my voluntary efforts to empower citizens, students, and professionals through **transparency, financial literacy, and legal awareness**.  
 
 This website is a **non-commercial, passion-driven project**, maintained solely to share knowledge and promote civic literacy.
 
@@ -64,12 +67,12 @@ My voluntary efforts focus on:
 
 ## 🤝 Connect and Collaborate
 
-When I’m not writing, filing RTIs, or creating awareness content, I contribute to civic literacy projects and mentor learners interested in public policy and social rights.  
+Beyond writing, filing RTIs, and creating awareness content, I contribute to civic literacy projects and mentor learners interested in public policy and social rights.  
 
 **Explore my work and connect:**  
-- 📄 [Articles on TaxGuru](https://taxguru.in/author/bvreddy/)  
-- 💼 [LinkedIn](https://www.linkedin.com/in/bvinayreddy/)  
-- 🕊️ [Twitter / X](https://x.com/VinayReddyBV)  
-- 📘 [Facebook](https://www.facebook.com/BanappagariVinayReddy)  
+- ✍️ [Articles on TaxGuru](https://taxguru.in/author/bvreddy/)  
+- ℹ️ [LinkedIn](https://www.linkedin.com/in/bvinayreddy/)  
+-  𝕏   [Twitter / X](https://x.com/VinayReddyBV)  
+-  ⓕ  [Facebook](https://www.facebook.com/BanappagariVinayReddy)  
 
 📧 **Contact:** [help@bvinayreddy.com](mailto:help@bvinayreddy.com)
