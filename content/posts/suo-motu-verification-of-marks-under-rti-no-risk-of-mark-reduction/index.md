@@ -3,6 +3,7 @@ title: "Suo-Motu Verification of Marks under RTI: No Risk of Mark Reduction"
 date: 2020-03-03T14:08:00.000+05:30
 draft: false
 author: B. Vinay Reddy
+thumbnail: suo-motu-verification.jpeg
 images:
   - suo-motu-verification.jpeg
 relative: false
