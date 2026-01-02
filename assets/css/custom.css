@@ -225,15 +225,14 @@ a[href*="edit"],
   visibility: hidden !important;
 }
 
-/* === Option A: Pure White Background (Homepage Hero) === */
-.hero,
-.hero::before,
-.author,
-.author-header {
-  background: #ffffff !important;         /* plain white background */
-  background-image: none !important;      /* remove any texture or star image */
-  color: #000000 !important;              /* dark text for readability */
+/* Homepage-only white hero */
+body.home .hero,
+body.home .hero::before,
+body.home .author,
+body.home .author-header {
+  background: #ffffff !important;
 }
+
 
 /* Ensure text stays dark */
 .author h1,
@@ -275,3 +274,14 @@ h2.mt-0.mb-0.text-xl {
   /* Script fonts are too wide on mobile */
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif !important;
 }
+
+/* === FIX: Remove white author box on post pages === */
+body.single .author,
+body.single .author-header,
+body.single .author-box {
+  background: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
