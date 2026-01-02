@@ -3,6 +3,8 @@ title: How to Cancel / Withdraw RTI application for  Certified Copies?
 date: 2020-03-14T09:56:00.000+05:30
 draft: false
 author: B. Vinay Reddy
+images:
+  - rti.jpg
 relative: false
 noIndex: false
 ---
@@ -27,7 +29,12 @@ As per the provisions of the Right to Information Act, 2005, there is no concept
 
 ---
 
-![RTI application cancellation reply by ICAI CPIO](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFfzoDcCwqmUmpW2DSjz6oQHHF8_Cv4Ir23v07QWpEZ8KOr-6ZyU8qAHP0QuYCCHXmqhGmADr8l9IVQQK7m0qUZ_qfPyz7BYDVnUOtXfOfypi-Wy1YaE0w1rOn-BJAz6YtcWH4KUfUM9y2/s640/Annotation+2020-03-14+203654.jpg)
+<div align="center">
+
+![RTI related document screenshot](RTI.jpg)
+
+</div>
+
 
 ---
 
