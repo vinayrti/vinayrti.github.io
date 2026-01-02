@@ -1,19 +1,17 @@
-{{/* Custom footer override */}}
-{{- define "partials/footer.html" -}}{{- end -}}
-
+<footer class="mt-8">
   <!-- Copyright -->
-  <div class="text-center mt-8 mb-4">
-  <div class="text-zinc-400 text-sm md:text-base font-semibold tracking-wide">
-    © {{ now.Format "2006" }} B. Vinay Reddy. All rights reserved.
+  <div class="text-center mb-4">
+    <div class="text-zinc-400 text-sm md:text-base font-semibold tracking-wide">
+      © {{ now.Format "2006" }} B. Vinay Reddy. All rights reserved.
+    </div>
+  </div>
+
+  <div class="h-6"></div>
+
+  <!-- Bottom Bar -->
+  <div class="bg-[#1b263b] border-t border-amber-400/50 text-center py-3 text-[14px] font-medium text-zinc-400 tracking-wide">
+    <a href="/privacy-policy/" class="hover:text-amber-300 mx-2">Privacy Policy</a> ·
+    <a href="/disclaimer/" class="hover:text-amber-300 mx-2">Disclaimer</a> ·
+    <a href="/terms-of-use/" class="hover:text-amber-300 mx-2">Terms of Use</a>
   </div>
 </footer>
-
-<div class="h-6"></div>
-
- 
-<!-- Bottom Gold Bar -->
-<div class="bg-[#1b263b] border-t border-amber-400/50 text-center py-3 text-[14px] font-medium text-zinc-400 tracking-wide">
-  <a href="/privacy-policy/" class="hover:text-amber-300 mx-2">Privacy Policy</a> ·
-  <a href="/disclaimer/" class="hover:text-amber-300 mx-2">Disclaimer</a> ·
-  <a href="/terms-of-use/" class="hover:text-amber-300 mx-2">Terms of Use</a>
-</div>
