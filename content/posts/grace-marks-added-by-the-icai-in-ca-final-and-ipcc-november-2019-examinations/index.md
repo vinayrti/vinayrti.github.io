@@ -81,8 +81,6 @@ The RTI reply clearly shows:
 
 *(Image uploaded below)*
 
-![Subject-wise marks added by ICAI under Regulation 39(2) – RTI reply](Grace marks.jpg)
-
 ---
 
 ## Conclusion
