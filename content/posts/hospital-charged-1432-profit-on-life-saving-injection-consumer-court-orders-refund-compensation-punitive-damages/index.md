@@ -1,6 +1,6 @@
 ---
-title: "Hospital Charged 1432% Profit on Life-Saving Injection: Consumer Court
-  Orders Refund, Compensation & Punitive Damages"
+title: "AIG Hospital Charged 1432% Profit on Injection: Consumer Court Orders
+  Refund & Penalty"
 description: Ranga Reddy District Consumer Commission exposes unethical hospital
   billing, orders refund of ₹3.5 lakh, compensation, costs and punitive damages
   for charging 1432% profit on injections.
