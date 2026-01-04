@@ -1,0 +1,52 @@
+<span class="visitor-pill">
+  Readership (<span id="gc-total">0</span>)
+</span>
+
+<!-- Hidden GoatCounter hook (DO NOT REMOVE) -->
+<span data-goatcounter-total style="display:none"></span>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const source = document.querySelector("[data-goatcounter-total]");
+    const output = document.getElementById("gc-total");
+
+    if (!source || !output) return;
+
+    // Proper Indian number formatting: 1,23,456
+    const formatIndian = (num) => {
+      const n = num.toString();
+      const last3 = n.slice(-3);
+      const rest = n.slice(0, -3);
+      return rest
+        ? rest.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + "," + last3
+        : last3;
+    };
+
+    const observer = new MutationObserver(() => {
+      const raw = source.textContent.trim();
+      if (raw && !isNaN(raw)) {
+        output.textContent = formatIndian(raw);
+        observer.disconnect();
+      }
+    });
+
+    observer.observe(source, { childList: true });
+  });
+</script>
+
+<style>
+.visitor-pill {
+  background-color: #2f3b46;
+  color: #ffffff;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.visitor-pill span {
+  font-family: "Courier New", monospace;
+}
+</style>

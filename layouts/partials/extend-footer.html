@@ -1,8 +1,17 @@
 <footer class="mt-8">
-  <!-- Copyright -->
-  <div class="text-center mb-4">
-    <div class="text-zinc-400 text-sm md:text-base font-semibold tracking-wide">
+  <!-- Centered copyright + Right-aligned readership -->
+  <div class="flex items-center mb-4 px-4">
+    <!-- Left spacer -->
+    <div class="flex-1"></div>
+
+    <!-- Center copyright -->
+    <div class="text-zinc-400 text-sm md:text-base font-semibold tracking-wide text-center">
       © {{ now.Format "2006" }} B. Vinay Reddy. All rights reserved.
+    </div>
+
+    <!-- Right readership counter -->
+    <div class="flex-1 flex justify-end">
+      {{ partial "global-view-counter.html" . }}
     </div>
   </div>
 
