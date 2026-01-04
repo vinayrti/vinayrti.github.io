@@ -1,6 +1,7 @@
 <footer class="mt-8">
-  <!-- Centered copyright + Right-aligned readership -->
-  <div class="flex items-center mb-4 px-4">
+
+  <!-- DESKTOP VIEW -->
+  <div class="hidden md:flex items-center mb-4 px-4">
     <!-- Left spacer -->
     <div class="flex-1"></div>
 
@@ -9,9 +10,22 @@
       © {{ now.Format "2006" }} B. Vinay Reddy. All rights reserved.
     </div>
 
-    <!-- Right readership counter -->
+    <!-- Right readership -->
     <div class="flex-1 flex justify-end">
       {{ partial "global-view-counter.html" . }}
+    </div>
+  </div>
+
+  <!-- MOBILE VIEW -->
+  <div class="md:hidden text-center mb-4 space-y-3 px-4">
+    <!-- Readership on top -->
+    <div class="flex justify-center">
+      {{ partial "global-view-counter.html" . }}
+    </div>
+
+    <!-- Copyright below -->
+    <div class="text-zinc-400 text-sm font-semibold tracking-wide">
+      © {{ now.Format "2006" }} B. Vinay Reddy. All rights reserved.
     </div>
   </div>
 
@@ -23,4 +37,5 @@
     <a href="/disclaimer/" class="hover:text-amber-300 mx-2">Disclaimer</a> ·
     <a href="/terms-of-use/" class="hover:text-amber-300 mx-2">Terms of Use</a>
   </div>
+
 </footer>
