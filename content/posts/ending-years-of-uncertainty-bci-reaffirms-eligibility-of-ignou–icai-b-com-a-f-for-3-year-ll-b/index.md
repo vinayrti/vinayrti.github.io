@@ -36,7 +36,7 @@ noIndex: false
 ---
 ## Ending Years of Uncertainty: IGNOU–ICAI B.Com (A&F) and LL.B. Eligibility
 
-For more than a decade, students across India—particularly Chartered Accountants and CA aspirants—have faced repeated uncertainty while seeking admission to the **3-Year LL.B. course**, despite holding valid and recognized qualifications.
+For more than a decade, students across India, particularly Chartered Accountants and CA aspirants - have faced repeated uncertainty while seeking admission to the **3-Year LL.B. course**, despite holding valid and recognized qualifications.
 
 This issue persisted not because of absence of law, but because of inconsistent interpretation.
 
@@ -50,17 +50,17 @@ The **Bar Council of India Rules of Legal Education, 2008** clearly provide that
 - Degrees obtained through distance or correspondence mode are permitted.
 - Disqualification applies only where a candidate obtained 10+2 or graduation directly through an open university system without possessing the basic or preceding qualification.
 
-Thus, where a student has completed **regular 10+2** and thereafter pursued graduation—even through distance education—the degree remains valid, provided the LL.B. is pursued in **regular mode**.
+Thus, where a student has completed **regular 10+2** and thereafter pursued graduation - even through distance education - the degree remains valid, provided the LL.B. is pursued in **regular mode**.
 
 ---
 
 ## A Struggle That Began in 2014
 
-As early as **2014**, a Chartered Accountant holding a **B.Com (Accountancy & Finance)** degree under the **IGNOU–ICAI MoU** faced denial of LL.B. admission.
+As early as **2014**, a Chartered Accountant Karan Joshi holding a **B.Com (Accountancy & Finance)** degree under the **IGNOU–ICAI MoU** faced denial of LL.B. admission.
 
 After prolonged struggle, the Bar Council of India clarified the position in his favour. However, since this clarification was not issued as a general public circular, the problem continued to resurface every academic year.
 
-Since then, **CA Karan Joshi** has been consistently helping students facing similar issues—quietly guiding, sharing documents, and supporting affected candidates across the country.
+Since then, **CA Karan Joshi** has been consistently helping students facing similar issues - quietly guiding, sharing documents, and supporting affected candidates across the country.
 
 ---
 
@@ -80,7 +80,7 @@ Students were left to fight individually for what the law already permitted.
 
 As per a **Press Release issued by the Public Relations Committee of the Institute of Chartered Accountants of India on 10 October 2023**, more than **48,000 ICAI students have successfully completed the B.Com (Accountancy & Finance)** programme under the IGNOU–ICAI MoU.
 
-This is not a marginal issue—it affects thousands of legitimate degree holders nationwide.
+This is not a marginal issue - it affects thousands of legitimate degree holders nationwide.
 
 ---
 
@@ -88,7 +88,7 @@ This is not a marginal issue—it affects thousands of legitimate degree holders
 
 In **2025**, I personally faced similar objections during the admission process.
 
-At this stage, I approached **CA Karan Joshi**, who was kind enough to guide me, share relevant precedents, and remain available whenever required. His support was instrumental—not just for me, but for countless students since 2014.
+At this stage, I approached **CA Karan Joshi**, who was kind enough to guide me, share relevant precedents, and remain available whenever required. His support was instrumental - not just for me, but for countless students since 2014.
 
 Eventually, after approaching the Bar Council of India, my admission was granted.
 
