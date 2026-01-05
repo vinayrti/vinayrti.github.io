@@ -1,11 +1,12 @@
+<!-- Readership Pill -->
 <span class="visitor-pill">
   Readership <span id="gc-total">0</span>
 </span>
 
-
-<!-- Hidden GoatCounter hook (DO NOT REMOVE) -->
+<!-- GoatCounter total hook (must exist BEFORE script runs) -->
 <span data-goatcounter-total style="display:none"></span>
 
+<!-- Readership updater -->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const source = document.querySelector("[data-goatcounter-total]");
@@ -13,15 +14,15 @@
 
     if (!source || !output) return;
 
-    // Proper Indian number formatting: 1,23,456
-    const formatIndian = (num) => {
+    // Indian numbering format: 1,23,456
+    function formatIndian(num) {
       const n = num.toString();
       const last3 = n.slice(-3);
       const rest = n.slice(0, -3);
       return rest
         ? rest.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + "," + last3
         : last3;
-    };
+    }
 
     const observer = new MutationObserver(() => {
       const raw = source.textContent.trim();
@@ -35,6 +36,14 @@
   });
 </script>
 
+<!-- GoatCounter (MUST be after the hook & JS above) -->
+<script
+  data-goatcounter="https://bvinayreddy.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js">
+</script>
+
+<!-- Styling -->
 <style>
 .visitor-pill {
   background-color: #2f3b46;
