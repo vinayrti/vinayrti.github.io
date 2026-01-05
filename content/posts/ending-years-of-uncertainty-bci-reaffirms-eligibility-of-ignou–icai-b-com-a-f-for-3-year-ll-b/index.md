@@ -1,6 +1,5 @@
 ---
-title: "Ending Years of Uncertainty: BCI Reaffirms Eligibility of IGNOU–ICAI
-  B.Com (A&F) for 3-Year LL.B."
+title: BCI Confirms IGNOU–ICAI B.Com (A&F) Eligibility for 3-Year LL.B. Admissions
 description: Despite clear Bar Council of India Rules since 2008, students
   holding IGNOU–ICAI B.Com (A&F) continued to face denial of LL.B. admission and
   Bar enrolment. This article documents the struggle and the decisive
