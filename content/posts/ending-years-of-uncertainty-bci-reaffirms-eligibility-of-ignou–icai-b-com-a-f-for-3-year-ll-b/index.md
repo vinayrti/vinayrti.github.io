@@ -35,6 +35,24 @@ noIndex: false
 ---
 ## Ending Years of Uncertainty: IGNOU–ICAI B.Com (A&F) and LL.B. Eligibility
 
+***In December 2025, the Bar Council of India issued an official clarification affirming that the IGNOU-ICAI B.Com (Accountancy & Finance) degree is fully eligible for admissions to the Three-Year LL.B. programme across all BCI-approved law colleges.*** 
+
+
+  <a href="https://bvinayreddy.com/uploads/bci_vinayreddy_bcomaf.pdf"
+     target="_blank"
+     style="
+       margin-top:10px;
+       background:#2563eb;
+       color:#ffffff;
+       padding:12px 18px;
+       border-radius:8px;
+       text-decoration:none;
+       font-weight:600;
+     ">
+     Click here to download BCI Clarification Letter 
+  </a>
+</div>
+
 For more than a decade, students across India, particularly Chartered Accountants and CA aspirants - have faced repeated uncertainty while seeking admission to the **3-Year LL.B. course**, despite holding valid and recognized qualifications.
 
 This issue persisted not because of absence of law, but because of inconsistent interpretation.
