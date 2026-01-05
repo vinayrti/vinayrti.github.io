@@ -49,7 +49,7 @@ noIndex: false
        text-decoration:none;
        font-weight:600;
      ">
-     Click here to download BCI Clarification Letter 
+     Click here to download 
   </a>
 </div>
 
