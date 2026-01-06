@@ -103,7 +103,7 @@ Recognising that individual clarifications were not enough, I submitted a **form
 
 ## Institutional Responsiveness That Matters
 
-At this crucial juncture, **Mr. Suvir Sidhu, Member, Bar Council of India**, was kind enough to hear the grievance of students and ensure the matter received proper attention from the appropriate authority.
+At this crucial juncture, **A Member, Bar Council of India**, was kind enough to hear the grievance of students and ensure the matter received proper attention from the appropriate authority.
 
 Such responsiveness deserves appreciation.
 
