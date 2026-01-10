@@ -27,12 +27,15 @@ author: B. Vinay Reddy
 cover:
   alt: Symbolic representation of democracy being buried under files and silence
   caption: When transparency dies quietly, democracy is buried silently.
+  image: featured.png
+thumbnail: featured.png
 relative: false
 seo:
   title: "Burial of Democracy: Collapse of RTI System in Telangana"
   description: An evidence-based exposé on how Telangana sabotaged the RTI Act
     despite Supreme Court orders—revealing systemic non-use of RTI portals, zero
     appeal disposals, and institutional paralysis.
+  image: featured.png
 noIndex: false
 ---
 <div style="
@@ -74,15 +77,18 @@ noIndex: false
 
 
 ---
-
-# Digital Mirage: The Systematic Burial of RTI in Telangana
+The **Right to Information Act of 2005** was intended to be the **sunlight that serves as the best disinfectant for corruption.** However, in Telangana, the sun is setting on transparency. 
 
 The Right to Information Act, 2005 was enacted to dismantle the culture of secrecy that long protected corruption and administrative arbitrariness in India. Transparency was not envisioned as a favour by the State, but as a **citizen’s enforceable right**, flowing directly from Articles **14, 19(1)(a), and 21** of the Constitution.
 
 Yet in Telangana, the RTI Act has not been repealed, suspended, or amended away.  
 Instead, it has been **quietly neutralised through systemic non-implementation**.
 
-This article documents how the RTI framework in Telangana has collapsed—not through overt defiance, but through silence, delay, non-use, and technical obstruction—using **official data supplied by the Government itself**.
+This article documents how the RTI framework in Telangana has collapsed - not through overt defiance, but through silence, delay, non-use, and technical obstruction - using **official data supplied by the Government itself**.
+
+This is not a story of inefficiency. 
+
+This is a story of institutional sabotage.
 
 ---
 
@@ -90,7 +96,7 @@ This article documents how the RTI framework in Telangana has collapsed—not th
 
 In **Writ Petition (Civil) No. 1040 of 2019 (Pravasi Legal Cell v. Union of India)**, read with **W.P.(C) No. 1325 of 2020**, the Supreme Court of India issued a binding direction:
 
-> All States and Union Territories shall **set up and operationalize online RTI portals** for all public authorities within their jurisdiction.
+> All States and Union Territories shall **set up and operationalize online RTI portals** for all public authorities within their jurisdiction within **3 Months.**
 
 The intent was unmistakable:
 - Universal digital access
@@ -105,10 +111,10 @@ It was a **constitutional command**.
 
 ## Telangana’s Formal Compliance, Substantive Defiance
 
-Telangana launched its RTI portal (**https://rti.telangana.gov.in/**) on **15 December 2022**.
+Telangana launched its RTI portal **https://rti.telangana.gov.in/** on **15th December 2022**.
 
 On paper, the State complied.  
-In practice, the portal became a **digital mirage**—visible, but unusable.
+In practice, the portal became a **digital mirage** - visible, but unusable.
 
 ---
 
@@ -118,15 +124,15 @@ As per the official RTI reply issued by the Information Technology, Electronics 
 
 ### RTI Applications (Dec 2022 – Dec 2025)
 
-- **Total RTI Applications Filed:** 17,865  
-- **Total RTI Applications Disposed:** 377  
+- Total RTI Applications **Filed  : 17,865**  
+- Total RTI Applications **Disposed: 377  **
 
 That is a **disposal rate of approximately 2%**.
 
-In effect, **98% of citizens who used the official RTI portal received no final response**.
+**The Reality:** A staggering **98% of online RTI applications** remain effectively unaddressed or **lost in the digital void.**
 
 This is not administrative backlog.  
-This is **systemic abandonment**.
+This is **administrative abandonment**.
 
 ---
 
@@ -134,12 +140,14 @@ This is **systemic abandonment**.
 
 The collapse is even more severe at the appellate stage:
 
-- **First Appeals Filed:** 2,502  
-- **First Appeals Disposed:** **NIL**
+- First Appeals **Filed: 2,502 **  
+- First Appeals **Disposed:** **NIL**
 
-Month after month, disposal columns reflect **zero**, rendering the statutory appeal mechanism meaningless. A lone aggregate number appears without explanation, but no month-wise disposal exists.
+Not one.
 
-A right without an effective appeal is **not a right—it is an illusion**.
+Not a single appeal decided.
+
+A statutory remedy reduced to a decorative illusion.
 
 ---
 
@@ -147,67 +155,43 @@ A right without an effective appeal is **not a right—it is an illusion**.
 
 Perhaps the most damning disclosure:
 
-- **Public Authorities Onboarded on Portal:** 3,323  
-- **Public Authorities Actually Using Portal:** 17  
-- **Public Authorities Not Using Portal:** 3,306  
+- Public Authorities **Onboarded on Portal: 3,323** 
+- Public Authorities **Actually Using Portal: 17**  
+- Public Authorities **Not Using Portal:   3,306**  
 
 That means **99.5% of Telangana’s public authorities are ignoring the RTI portal**.
 
-This includes the **ITE&C Department itself**—the very authority responsible for developing and maintaining the portal.
+This includes the **ITE&C Department itself** - the very authority responsible for developing and maintaining the portal.
 
-Even more disturbing:
-- **No notices issued**
-- **No compliance directions**
-- **No monitoring reports**
-- **No enforcement action**
-
-A regulator that does not regulate is not ineffective—it is complicit.
-
----
-
-## Transparency Locked Behind NDAs
-
-When citizens sought certified copies of:
-- Government Orders
-- Tenders
-- File notes
-- Agreements
-- Approvals
-
-relating to the RTI portal itself, the response was startling:
-
-> Disclosure denied due to an **existing NDA with the vendor**.
-
-A portal meant to enforce transparency is itself governed by secrecy clauses.
-
-Public money is spent.  
-Public infrastructure is created.  
-Yet the public is told it cannot know **how, why, or at what cost**.
-
-This defeats the very object of the RTI Act.
+When the watchdog refuses to watch, corruption doesn’t need protection - it gets permission.
 
 ---
 
 ## The Sleeping Watchdog: Telangana Information Commission
 
-The Telangana State Information Commission is legally mandated to:
-- Enforce RTI timelines
-- Penalize erring officers
-- Protect citizen rights
+The Telangana State Information Commission TGIC is legally mandated to:
+- Monitor RTI Compliance
+- Enforce timelines
+- Penalize defiance
 
 In reality, it mirrors the paralysis it is meant to correct.
 
-### Personal Case Illustration
+The TGIC itself was not using the Telangana Online RTI Portal and insisted on submission of physical copies of RTI applications. This practice continued until I submitted a formal representation to the Hon’ble Chief Information Commissioner.
+
+Even thereafter, the situation remains unchanged: only one or two RTI applications have been responded to through the online portal, while the remaining applications are still pending without any online reply.
+
+### Personal Case Snapshot
 
 - **Second Appeal Filed:** 2023  
+- **Listing for Hearing:** Delayed until November 2025 due to the prolonged non-functioning of the Telangana State Information Commission  
 - **Hearing Concluded:** 26 November 2025  
-- **Order Status (as of 10 January 2026):** Not passed  
+- **Order Status (as of 10 January 2026):** Not pronounced  
 
-Over **40 days after conclusion of arguments**, no order.
+Even **45+ days after the conclusion of arguments**, no order has been passed.
 
-High Courts routinely pronounce judgments faster.
+The Right to Information Act, 2005 is built on strict timelines. Yet, when the RTI regulator itself delays hearings and withholds orders, citizens are left without an effective remedy.
 
-When the RTI regulator itself defaults, citizens are forced into constitutional litigation merely to activate a statutory right.
+High Courts and the Supreme Court routinely deliver judgments within a reasonable time after hearings conclude. In contrast, prolonged inaction by the Information Commission forces citizens into constitutional litigation merely to activate a statutory right meant to be simple, time-bound, and accessible.
 
 ---
 
@@ -220,55 +204,49 @@ As of January 2026:
 - **OTPs are not being triggered**
 - RTI applications **cannot be submitted**
 
-There is:
-- No public notice
-- No alternate submission mechanism
-- No accountability
-
 When digital access is mandated and the system fails, the State effectively **suspends the RTI Act without authority of law**.
 
-A right that exists only when servers cooperate is **not a right—it is a controlled privilege**.
+A right that exists only when servers cooperate is **not a right - it is a controlled privilege**.
 
 ---
 
 ## A 20-Year-Old Law Still Awaiting Implementation
 
-The RTI Act came into force in **2005**.  
-It is now **2026**.
+The RTI Act is now over 20 years old.
 
-If a State is unwilling to:
-- Answer RTI applications
-- Decide appeals
-- Enforce penalties
-- Operate its own portal
+If the State has no intention to implement it, the question must be asked openly:
 
-then an uncomfortable question must be asked:
+**If transparency is inconvenient, why not repeal the RTI Act honestly instead of strangling it quietly?**
 
-**If transparency is inconvenient, why not repeal the RTI Act honestly instead of sabotaging it silently?**
-
-Symbolic compliance is more dangerous than repeal—it deceives citizens into believing rights exist when they do not.
+Symbolic laws with zero enforcement are worse than repealed laws—they deceive citizens into believing rights exist when they do not.
 
 ---
 
 ## Conclusion: Democracy Buried by Silence
 
-There has been:
-- No formal repeal
-- No suspension notification
-- No legislative debate
+This Is Not About a Portal. This Is About Democracy.
 
-Instead:
-- Applications vanish
-- Appeals stagnate
-- Authorities ignore
-- Commissions sleep
-- Portals fail
+RTI is not a software feature.
+RTI is not a department.
+RTI is the citizen’s right to question power.
+
+When:
+
+Applications are not answered
+
+Appeals are not heard
+
+Authorities are not monitored
+
+What dies is not transparency alone.
+
+What dies is democracy itself.
 
 This is not an administrative lapse.  
 It is the **systematic burial of democratic accountability**.
 
 Democracy does not always die loudly.  
-Sometimes, it dies quietly—behind “Processing” screens, empty dashboards, and unanswered appeals.
+Sometimes, it dies quietly - behind “Processing” screens, empty dashboards, and unanswered appeals.
 
 **In Telangana today, the Right to Information has effectively become the Right to Ignore.**
 
