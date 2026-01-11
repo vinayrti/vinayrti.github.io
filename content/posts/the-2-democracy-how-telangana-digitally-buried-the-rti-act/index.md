@@ -125,7 +125,7 @@ As per the official RTI reply issued by the Information Technology, Electronics 
 ### RTI Applications (Dec 2022 – Dec 2025)
 
 - Total RTI Applications **Filed  : 17,865**  
-- Total RTI Applications **Disposed: 377  **
+- Total RTI Applications **Disposed: 377**
 
 That is a **disposal rate of approximately 2%**.
 
@@ -140,7 +140,7 @@ This is **administrative abandonment**.
 
 The collapse is even more severe at the appellate stage:
 
-- First Appeals **Filed: 2,502 **  
+- First Appeals **Filed: 2,502**  
 - First Appeals **Disposed:** **NIL**
 
 Not one.
