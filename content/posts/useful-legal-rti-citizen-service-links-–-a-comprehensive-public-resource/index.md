@@ -529,3 +529,7 @@ https://youtube.com/playlist?list=PLyqSpQzTE6M-QVCDaHh4VvmiK8Nq53j-b&si=ijdRd9t1
 **Distict Websites**
 [https://medak.telangana.gov.in/]
 (https://medak.telangana.gov.in/)
+
+**Krishi Vigyan Kendra, Medak**
+[https://kvkmedak.org/shop/ols/products/organic-ground-nut-oil]
+(https://kvkmedak.org/shop/ols/products/organic-ground-nut-oil)
