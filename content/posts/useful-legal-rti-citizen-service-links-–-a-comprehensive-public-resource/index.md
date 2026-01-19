@@ -523,4 +523,9 @@ https://youtube.com/playlist?list=PLyqSpQzTE6M-QVCDaHh4VvmiK8Nq53j-b&si=ijdRd9t1
 [https://guidelines.india.gov.in/introduction/]
 (https://guidelines.india.gov.in/introduction/)
 
-**
+**Prajavani**
+[https://cpgrams.ts.nic.in/index.php](https://cpgrams.ts.nic.in/index.php)
+
+**Distict Websites**
+[https://medak.telangana.gov.in/]
+(https://medak.telangana.gov.in/)
