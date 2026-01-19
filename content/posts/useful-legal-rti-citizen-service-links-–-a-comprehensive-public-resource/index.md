@@ -460,4 +460,67 @@ https://youtube.com/playlist?list=PLyqSpQzTE6M-QVCDaHh4VvmiK8Nq53j-b&si=ijdRd9t1
 [https://www.allindiabarexamination.com/](https://www.allindiabarexamination.com/)
 
 ---
+**Telangana High Court Directory**
+[https://tshc.gov.in/processMenuTypes?id=67](https://tshc.gov.in/processMenuTypes?id=67)
 
+**Law DeparDepartment Telangana**
+[https://law.telangana.gov.in/home]
+(https://law.telangana.gov.in/home)
+
+**Telangana Stae Laws PDFs**
+[https://law.telangana.gov.in/stateLaws]
+(https://law.telangana.gov.in/stateLaws)
+
+**Armed Forces Tribunal**
+[https://www.aftdelhi.nic.in/]
+(https://www.aftdelhi.nic.in/)
+
+**PILs by Adv Rapolu Bhaskar**
+[https://rapolubhaskar.legal/pils/]
+(https://rapolubhaskar.legal/pils/)
+
+**Constituent Assembly Debates**
+[https://www.constitutionofindia.net/constitution-assembly-debates/]
+(https://www.constitutionofindia.net/constitution-assembly-debates/)
+
+[https://elibrary.sansad.in/collections/2ed20617-04a0-4634-80c4-3cfc351fb155]
+(https://elibrary.sansad.in/collections/2ed20617-04a0-4634-80c4-3cfc351fb155)
+
+**Parliament Digital Library**
+[https://elibrary.sansad.in/communities/ca1f325a-61ab-4d3c-857d-f48a9b78b1a2]
+(https://elibrary.sansad.in/communities/ca1f325a-61ab-4d3c-857d-f48a9b78b1a2)
+
+**Historical Debates**
+[https://sansad.in/ls/debates/historical?1]
+(https://sansad.in/ls/debates/historical?1)
+
+**RTI Srinivas Madhav, MCHRD Trainer**
+[https://www.youtube.com/@srinivasmadhav7203/videos]
+(https://www.youtube.com/@srinivasmadhav7203/videos)
+
+**NPTEL Courses**
+[https://nptel.ac.in/courses]
+(https://nptel.ac.in/courses)
+
+**LANDEED Sanjay Mandava**
+
+[https://www.youtube.com/watch?v=sF1fj7yAzUY]
+(https://www.youtube.com/watch?v=sF1fj7yAzUY)
+
+[https://www.youtube.com/watch?v=oJSdteY19Jo&t=74s]
+(https://www.youtube.com/watch?v=oJSdteY19Jo&t=74s)
+
+
+**DOPT RTI Orders, Notifications**
+[https://doptcirculars.nic.in/Default.aspx?URL=e0joY8Gw069R]
+(https://doptcirculars.nic.in/Default.aspx?URL=e0joY8Gw069R)
+
+**Contempt of Courts Act, 1971 by SCC**
+[https://www.scconline.com/blog/post/2021/10/09/contempt-of-court-2/#_ftn10]
+(https://www.scconline.com/blog/post/2021/10/09/contempt-of-court-2/#_ftn10)
+
+**GIGW 3.0 GUIDELINES FOR INDIAN GOVERNMENT WEBSITES AND APPS**
+[https://guidelines.india.gov.in/introduction/]
+(https://guidelines.india.gov.in/introduction/)
+
+**
