@@ -167,34 +167,6 @@ When the watchdog refuses to watch, corruption doesn’t need protection - it ge
 
 ---
 
-## The Sleeping Watchdog: Telangana Information Commission
-
-The Telangana State Information Commission TGIC is legally mandated to:
-- Monitor RTI Compliance
-- Enforce timelines
-- Penalize defiance
-
-In reality, it mirrors the paralysis it is meant to correct.
-
-The TGIC itself was not using the Telangana Online RTI Portal and insisted on submission of physical copies of RTI applications. This practice continued until I submitted a formal representation to the Hon’ble Chief Information Commissioner.
-
-Even thereafter, the situation remains unchanged: only one or two RTI applications have been responded to through the online portal, while the remaining applications are still pending without any online reply.
-
-### Personal Case Snapshot
-
-- **Second Appeal Filed:** 2023  
-- **Listing for Hearing:** Delayed until November 2025 due to the prolonged non-functioning of the Telangana State Information Commission  
-- **Hearing Concluded:** 26 November 2025  
-- **Order Status (as of 10 January 2026):** Not pronounced  
-
-Even **45+ days after the conclusion of arguments**, no order has been passed.
-
-The Right to Information Act, 2005 is built on strict timelines. Yet, when the RTI regulator itself delays hearings and withholds orders, citizens are left without an effective remedy.
-
-High Courts and the Supreme Court routinely deliver judgments within a reasonable time after hearings conclude. In contrast, prolonged inaction by the Information Commission forces citizens into constitutional litigation merely to activate a statutory right meant to be simple, time-bound, and accessible.
-
----
-
 ## Real-Time Breakdown: Portal Not Functioning
 
 As of January 2026:
