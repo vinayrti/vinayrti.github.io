@@ -460,76 +460,123 @@ https://youtube.com/playlist?list=PLyqSpQzTE6M-QVCDaHh4VvmiK8Nq53j-b&si=ijdRd9t1
 [https://www.allindiabarexamination.com/](https://www.allindiabarexamination.com/)
 
 ---
-**Telangana High Court Directory**
-[https://tshc.gov.in/processMenuTypes?id=67](https://tshc.gov.in/processMenuTypes?id=67)
+## Telangana Judiciary & Government
 
-**Law DeparDepartment Telangana**
-[https://law.telangana.gov.in/home]
-(https://law.telangana.gov.in/home)
+- **Telangana High Court Directory**  
+  <https://tshc.gov.in/processMenuTypes?id=67>
 
-**Telangana Stae Laws PDFs**
-[https://law.telangana.gov.in/stateLaws]
-(https://law.telangana.gov.in/stateLaws)
+- **Law Department, Telangana**  
+  <https://law.telangana.gov.in/home>
 
-**Armed Forces Tribunal**
-[https://www.aftdelhi.nic.in/]
-(https://www.aftdelhi.nic.in/)
+- **Telangana State Laws (PDFs)**  
+  <https://law.telangana.gov.in/stateLaws>
 
-**PILs by Adv Rapolu Bhaskar**
-[https://rapolubhaskar.legal/pils/]
-(https://rapolubhaskar.legal/pils/)
+- **Prajavani (CPGRAMS Telangana)**  
+  <https://cpgrams.ts.nic.in/index.php>
 
-**Constituent Assembly Debates**
-[https://www.constitutionofindia.net/constitution-assembly-debates/]
-(https://www.constitutionofindia.net/constitution-assembly-debates/)
+- **District Website – Medak**  
+  <https://medak.telangana.gov.in/>
 
-[https://elibrary.sansad.in/collections/2ed20617-04a0-4634-80c4-3cfc351fb155]
-(https://elibrary.sansad.in/collections/2ed20617-04a0-4634-80c4-3cfc351fb155)
+---
 
-**Parliament Digital Library**
-[https://elibrary.sansad.in/communities/ca1f325a-61ab-4d3c-857d-f48a9b78b1a2]
-(https://elibrary.sansad.in/communities/ca1f325a-61ab-4d3c-857d-f48a9b78b1a2)
+## Tribunals & Courts
 
-**Historical Debates**
-[https://sansad.in/ls/debates/historical?1]
-(https://sansad.in/ls/debates/historical?1)
+- **Armed Forces Tribunal**  
+  <https://www.aftdelhi.nic.in/>
 
-**RTI Srinivas Madhav, MCHRD Trainer**
-[https://www.youtube.com/@srinivasmadhav7203/videos]
-(https://www.youtube.com/@srinivasmadhav7203/videos)
+- **Supreme Court Chronicle**  
+  <https://www.sci.gov.in/supreme-court-chronicle/>
 
-**NPTEL Courses**
-[https://nptel.ac.in/courses]
-(https://nptel.ac.in/courses)
+---
 
-**LANDEED Sanjay Mandava**
+## PILs & Legal Resources
 
-[https://www.youtube.com/watch?v=sF1fj7yAzUY]
-(https://www.youtube.com/watch?v=sF1fj7yAzUY)
+- **PILs by Adv. Rapolu Bhaskar**  
+  <https://rapolubhaskar.legal/pils/>
 
-[https://www.youtube.com/watch?v=oJSdteY19Jo&t=74s]
-(https://www.youtube.com/watch?v=oJSdteY19Jo&t=74s)
+- **Contempt of Courts Act, 1971 – SCC Blog**  
+  <https://www.scconline.com/blog/post/2021/10/09/contempt-of-court-2/#_ftn10>
 
+- **Law Advice – Law Comrade**  
+  <https://lawcomrade.wordpress.com/2020/06/26/law-advice-ff/>
 
-**DOPT RTI Orders, Notifications**
-[https://doptcirculars.nic.in/Default.aspx?URL=e0joY8Gw069R]
-(https://doptcirculars.nic.in/Default.aspx?URL=e0joY8Gw069R)
+---
 
-**Contempt of Courts Act, 1971 by SCC**
-[https://www.scconline.com/blog/post/2021/10/09/contempt-of-court-2/#_ftn10]
-(https://www.scconline.com/blog/post/2021/10/09/contempt-of-court-2/#_ftn10)
+## Constitution, Parliament & Debates
 
-**GIGW 3.0 GUIDELINES FOR INDIAN GOVERNMENT WEBSITES AND APPS**
-[https://guidelines.india.gov.in/introduction/]
-(https://guidelines.india.gov.in/introduction/)
+- **Constituent Assembly Debates**  
+  <https://www.constitutionofindia.net/constitution-assembly-debates/>
 
-**Prajavani**
-[https://cpgrams.ts.nic.in/index.php](https://cpgrams.ts.nic.in/index.php)
+- **Sansad eLibrary – Collection**  
+  <https://elibrary.sansad.in/collections/2ed20617-04a0-4634-80c4-3cfc351fb155>
 
-**Distict Websites**
-[https://medak.telangana.gov.in/]
-(https://medak.telangana.gov.in/)
+- **Parliament Digital Library**  
+  <https://elibrary.sansad.in/communities/ca1f325a-61ab-4d3c-857d-f48a9b78b1a2>
 
-**Krishi Vigyan Kendra, Medak**
-[https://kvkmedak.org/shop/ols/products/organic-ground-nut-oil]
-(https://kvkmedak.org/shop/ols/products/organic-ground-nut-oil)
+- **Historical Parliamentary Debates**  
+  <https://sansad.in/ls/debates/historical?1>
+
+---
+
+## RTI, Governance & Guidelines
+
+- **RTI – Srinivas Madhav (MHRD Trainer) – YouTube**  
+  <https://www.youtube.com/@srinivasmadhav7203/videos>
+
+- **DoPT RTI Orders & Notifications**  
+  <https://doptcirculars.nic.in/Default.aspx?URL=e0joY8Gw069R>
+
+- **GIGW 3.0 – Guidelines for Indian Government Websites & Apps**  
+  <https://guidelines.india.gov.in/introduction/>
+
+---
+
+## Education & Courses
+
+- **NPTEL Courses**  
+  <https://nptel.ac.in/courses>
+
+---
+
+## Land & Property (LANDEED – Sanjay Mandava)
+
+- **LANDEED Video – Part 1**  
+  <https://www.youtube.com/watch?v=sF1fj7yAzUY>
+
+- **LANDEED Video – Part 2**  
+  <https://www.youtube.com/watch?v=oJSdteY19Jo&t=74s>
+
+---
+
+## Agriculture & Local Institutions
+
+- **Krishi Vigyan Kendra, Medak – Organic Groundnut Oil**  
+  <https://kvkmedak.org/shop/ols/products/organic-ground-nut-oil>
+
+---
+
+## Archives & Historical Documents
+
+- **Tata Central Archives – Sands of Time (Vol. 16.3)**  
+  <https://www.tatacentralarchives.com/documents/e_book/sands-of-time-vol-16-3/ebook/index.html#p=5>
+
+---
+
+## News & Anti-Corruption Cases
+
+- **NewsMeter – ₹5,000 Bribe Case (PC Act)**  
+  <https://newsmeter.in/regional/andhra-pradesh/rs-5000-bribe-7-years-jail-rare-acb-trap-case-ends-in-prosecution-first-judgment-under-amended-pc-act-762650>
+
+- **Times of India – Ex Health Official Gets 7-Year Jail**  
+  <https://timesofindia.indiatimes.com/city/vijayawada/ex-health-official-of-kadapa-gets-seven-year-jail-in-graft-case/articleshow/128001641.cms>
+---
+## Additional Useful Links
+
+- **Land – Advanced Search @ ALT Publications**  
+  <https://altpublications.com/advsearchresults.php?txtsrchsub=Land&submit2=Search>
+
+- **Sudhir Mishra – Founder & Managing Partner, Trust Legal (SuperLawyer)**  
+  <https://superlawyer.in/sudhir-mishra-founder-managing-partner-trust-legal-building-illustrious-career-environmental-law>
+
+- **98% of Online RTI Pleas Pending in Telangana – Times of India (Vinay Reddy article)**  
+  <https://timesofindia.indiatimes.com/city/hyderabad/98-of-online-rti-pleas-pending-in-t-reveals-data/articleshow/128082795.cms>
