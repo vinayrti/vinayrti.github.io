@@ -580,3 +580,8 @@ https://youtube.com/playlist?list=PLyqSpQzTE6M-QVCDaHh4VvmiK8Nq53j-b&si=ijdRd9t1
 
 - **98% of Online RTI Pleas Pending in Telangana – Times of India (Vinay Reddy article)**  
   <https://timesofindia.indiatimes.com/city/hyderabad/98-of-online-rti-pleas-pending-in-t-reveals-data/articleshow/128082795.cms>
+
+<https://www.metroindia.net/news/articlenews/what-remains-of-rti-is-a-pale-shadow-of-its-original-self--35509>
+
+<https://www.eenadu.net/telugu-news/vyakyanam/right-to-information-is-being-weakened./1301/126033262>
+
