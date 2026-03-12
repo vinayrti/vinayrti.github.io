@@ -21,7 +21,7 @@ tags:
     Transparency  Public Accountability  Telangana Governance
 author: B. Vinay Reddy
 cover:
-  image: featured.png
+  image: ""
   alt: Decline in Telangana Government Orders published on GO portal between 2014
     and 2026
   caption: Year-wise Government Orders published on Telangana GOIR portal (2014–2026)
@@ -31,7 +31,7 @@ seo:
   title: "Telangana GO Portal Analysis: Why Government Orders Dropped 90% Since 2015"
   description: A data analysis of Telangana’s GOIR portal reveals a sharp decline
     in Government Orders published online since 2015. Is transparency declining?
-  image: featured.png
+  image: ""
 keywords:
   - Telangana Government Orders
   - GOIR Telangana
