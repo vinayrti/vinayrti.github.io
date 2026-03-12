@@ -25,7 +25,7 @@ cover:
   alt: Decline in Telangana Government Orders published on GO portal between 2014
     and 2026
   caption: Year-wise Government Orders published on Telangana GOIR portal (2014–2026)
-thumbnail: featured.png
+thumbnail: ""
 relative: false
 seo:
   title: "Telangana GO Portal Analysis: Why Government Orders Dropped 90% Since 2015"
