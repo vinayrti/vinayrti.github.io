@@ -174,4 +174,3 @@ Telangana Government Order Issue Register (GOIR)
 https://goir.telangana.gov.in
 
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRbmOdwTVHs9bfxKpR2Px0dmGFymbXho9HZeCCGecvkQmG0NgvMnDTn5bv8kXn4WfjYb6a4LXeODWdC/pubhtml?widget=true&amp;headers=false"></iframe>
