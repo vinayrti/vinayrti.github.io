@@ -589,7 +589,16 @@ https://youtube.com/playlist?list=PLyqSpQzTE6M-QVCDaHh4VvmiK8Nq53j-b&si=ijdRd9t1
   <https://bprd.nic.in/>
 
 - **File Hash Online CalculatorWASM**
-<https://md5file.com/calculator>
+   <https://md5file.com/calculator>
 
 - **Draft Bot**
-https://www.draftbotpro.com/
+   <https://www.draftbotpro.com/>
+
+- **Common Cause PILs**
+<https://www.commoncause.in/>
+
+- **Centre for Law & Policy Research**
+   <https://clpr.org.in/>
+
+- **IPC Vs BNS Compare**
+<https://lawandsections.com/compare>
