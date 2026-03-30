@@ -591,3 +591,5 @@ https://youtube.com/playlist?list=PLyqSpQzTE6M-QVCDaHh4VvmiK8Nq53j-b&si=ijdRd9t1
 - **File Hash Online CalculatorWASM**
 <https://md5file.com/calculator>
 
+- **Draft Bot**
+https://www.draftbotpro.com/
