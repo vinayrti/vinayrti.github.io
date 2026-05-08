@@ -602,3 +602,21 @@ https://youtube.com/playlist?list=PLyqSpQzTE6M-QVCDaHh4VvmiK8Nq53j-b&si=ijdRd9t1
 
 - **IPC Vs BNS Compare**
 <https://lawandsections.com/compare>
+
+
+https://www.panamerica.studio/products/shiny-white-satin-shirt-for-men
+
+https://ecourtsindia.com/
+https://e-jagriti.com/
+
+
+https://yourti.in/
+https://www.rti404.com/
+
+https://lokayukta.telangana.gov.in/downloads.html
+
+https://tgbienew.cgg.gov.in/home.do
+
+https://www.advocategpt.ai/about
+
+https://www.telugubooks.in/products/nenu-naa-nallakotu
